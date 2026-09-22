@@ -1,7 +1,9 @@
 # 📚 Current Affairs for Exams — Bank • UPSC • PSU
 
-Daily exam-ready current affairs, compiled from India's top five prep sites —
-**GKToday, Insights IAS, Drishti IAS, Testbook & AffairsCloud** — with a
+Daily exam-ready current affairs, compiled from **17 of India's top prep
+sources** — GKToday, Insights IAS, Drishti IAS, Testbook, AffairsCloud,
+Vision IAS, ForumIAS, IASbaba, ClearIAS, Adda247, Oliveboard, Jagran Josh,
+Guidely, StudyIQ, Unacademy, PIB and BYJU'S (archived) — with a
 head-to-head comparison of which site to use for what.
 
 🌐 **Live site:** https://niteshlhsnda-droid.github.io/current-affairs-exams/
@@ -11,8 +13,8 @@ head-to-head comparison of which site to use for what.
 | Folder | What it is |
 |---|---|
 | [`updates/`](updates/) | Dated daily digests — top stories with exam tags (🏦 Bank / 🎓 UPSC / 🏭 PSU), 60-second rapid-fire one-liners, and a 10-question self-test quiz |
-| [`compare.md`](compare.md) | Head-to-head comparison of the five sites: speed, format, banking focus, UPSC depth, Hindi support, free vs paid |
-| [`research/`](research/) | Raw research notes per site (items, format, strengths, weaknesses) |
+| [`compare.md`](compare.md) | Head-to-head comparison of all 17 sites: original five + new UPSC lane (Vision IAS, ForumIAS, IASbaba, ClearIAS), Bank/SSC lane (Adda247, Oliveboard, Jagran Josh, Guidely) and general lane (StudyIQ, Unacademy, PIB, BYJU'S⚠️) — speed, format, banking focus, UPSC depth, Hindi support, free vs paid |
+| [`research/`](research/) | Raw research notes per site (items, format, strengths, weaknesses) — 17 files |
 
 ## Latest update
 
@@ -20,17 +22,25 @@ head-to-head comparison of which site to use for what.
 
 ## How to use
 
-- **Bank aspirants:** skim the 🏦-tagged items + rapid-fire one-liners daily; use AffairsCloud/GKToday for banking depth.
-- **UPSC aspirants:** focus on 🎓-tagged items; pair with Insights IAS / Drishti IAS for Mains analysis.
-- **PSU aspirants:** watch the 🏭-tagged PSU/economy items (IOCL, ONGC, MDL, HAL…).
+- **Bank aspirants:** skim the 🏦-tagged items + rapid-fire one-liners daily; use Guidely/AffairsCloud for banking-finance depth, Adda247 for the speed feed, and Oliveboard's free PDFs for monthly consolidation. RBI Grade B/NABARD aspirants should add Oliveboard's RBI-circulars feed.
+- **UPSC aspirants:** focus on 🎓-tagged items; daily feed via IASbaba + ForumIAS (newspaper replacement), Mains depth via Insights IAS / StudyIQ / Drishti IAS, final revision via Vision IAS's free PT 365 / Mains 365 + ClearIAS's monthly MCQ capsules.
+- **PSU aspirants:** watch the 🏭-tagged PSU/economy items (IOCL, ONGC, MDL, HAL…); Jagran Josh's free monthly PDFs help for SSC-style revision.
+- **Fact-checking:** cross-check scheme dates, Bill provisions and index numbers against **PIB** (the primary source) before trusting any prep site.
+- ⚠️ **BYJU'S** free current affairs is frozen at ~April 2024 — archives only, not a live source.
 
 ## Sources
 
 All items are compiled from public current-affairs coverage on
 [gktoday.in](https://www.gktoday.in), [insightsonindia.com](https://www.insightsonindia.com),
-[drishtiias.com](https://www.drishtiias.com), [testbook.com](https://testbook.com) and
-[affairscloud.com](https://www.affairscloud.com). This repo adds original
-curation, exam tagging, quizzes and comparison — it does not republish their articles.
+[drishtiias.com](https://www.drishtiias.com), [testbook.com](https://testbook.com),
+[affairscloud.com](https://www.affairscloud.com),
+[visionias.in](https://www.visionias.in), [forumias.com](https://forumias.com),
+[iasbaba.com](https://iasbaba.com), [clearias.com](https://www.clearias.com),
+[adda247.com](https://currentaffairs.adda247.com), [oliveboard.in](https://www.oliveboard.in),
+[jagranjosh.com](https://www.jagranjosh.com), [guidely.in](https://guidely.in),
+[studyiq.com](https://www.studyiq.com), [unacademy.com](https://unacademy.com),
+[pib.gov.in](https://www.pib.gov.in) and [byjus.com](https://byjus.com) (archived content only).
+This repo adds original curation, exam tagging, quizzes and comparison — it does not republish their articles.
 
 ## License
 
