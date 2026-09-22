@@ -13,12 +13,32 @@ head-to-head comparison of which site to use for what.
 | Folder | What it is |
 |---|---|
 | [`updates/`](updates/) | Dated daily digests — top stories with exam tags (🏦 Bank / 🎓 UPSC / 🏭 PSU), 60-second rapid-fire one-liners, and a 10-question self-test quiz |
+| [`monthly/`](monthly/) | 12-month archive (Sept 2025 – Aug 2026) — same format as the daily digests, one file per month with categories, one-liners and quizzes |
 | [`compare.md`](compare.md) | Head-to-head comparison of all 17 sites: original five + new UPSC lane (Vision IAS, ForumIAS, IASbaba, ClearIAS), Bank/SSC lane (Adda247, Oliveboard, Jagran Josh, Guidely) and general lane (StudyIQ, Unacademy, PIB, BYJU'S⚠️) — speed, format, banking focus, UPSC depth, Hindi support, free vs paid |
 | [`research/`](research/) | Raw research notes per site (items, format, strengths, weaknesses) — 17 files |
 
 ## Latest update
 
 - [22 September 2026](updates/2026-09-22.md) — 38 top stories, rapid-fire one-liners, 10-question quiz
+
+## 📅 Last 12 months
+
+| Month | Digest |
+|---|---|
+| August 2026 | [monthly/2026-08.md](monthly/2026-08.md) |
+| July 2026 | [monthly/2026-07.md](monthly/2026-07.md) |
+| June 2026 | [monthly/2026-06.md](monthly/2026-06.md) |
+| May 2026 | [monthly/2026-05.md](monthly/2026-05.md) |
+| April 2026 | [monthly/2026-04.md](monthly/2026-04.md) |
+| March 2026 | [monthly/2026-03.md](monthly/2026-03.md) |
+| February 2026 | [monthly/2026-02.md](monthly/2026-02.md) |
+| January 2026 | [monthly/2026-01.md](monthly/2026-01.md) |
+| December 2025 | [monthly/2025-12.md](monthly/2025-12.md) |
+| November 2025 | [monthly/2025-11.md](monthly/2025-11.md) |
+| October 2025 | [monthly/2025-10.md](monthly/2025-10.md) |
+| September 2025 | [monthly/2025-09.md](monthly/2025-09.md) |
+
+Each monthly digest groups top stories by 15 categories with exam tags (🏦/🎓/🏭), plus rapid-fire one-liners and a 10-question self-test quiz.
 
 ## How to use
 
