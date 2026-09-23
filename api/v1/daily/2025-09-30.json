@@ -1,0 +1,38 @@
+{
+ "slug": "2025-09-30",
+ "date": "30 September 2025",
+ "categories": [
+  {
+   "name": "Science & Technology",
+   "stories": [
+    {
+     "id": "2025-09-30-1",
+     "title": "NISAR sends its first Earth images (30 September)",
+     "body": "the NASA-ISRO Synthetic Aperture Radar satellite's inaugural imagery as it readies for full operations.",
+     "tags": [
+      "upsc",
+      "high-yield"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sports",
+   "stories": [
+    {
+     "id": "2025-09-30-2",
+     "title": "ICC Women's ODI World Cup 2025 begins (30 September)",
+     "body": "co-hosted by India and Sri Lanka.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  }
+ ],
+ "one_liners": [
+  "NISAR sends its first Earth images (30 September) — the NASA-ISRO Synthetic Aperture Radar satellite's inaugural imagery as it readies for full operations.",
+  "ICC Women's ODI World Cup 2025 begins (30 September) — co-hosted by India and Sri Lanka."
+ ],
+ "quiz": []
+}

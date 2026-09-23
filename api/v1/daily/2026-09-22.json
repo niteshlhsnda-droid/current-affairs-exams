@@ -1,0 +1,468 @@
+{
+ "slug": "2026-09-22",
+ "date": "22 September 2026",
+ "categories": [
+  {
+   "name": "Banking & Finance",
+   "stories": [
+    {
+     "id": "2026-09-22-1",
+     "title": "NPCI revises UPI MDR framework",
+     "body": "0.4% charge on merchant (P2M) UPI transactions above ₹2,000, capped at ₹300 per transaction.",
+     "tags": [
+      "bank",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-22-2",
+     "title": "Cabinet raises EPFO wage ceiling ₹15,000 → ₹25,000",
+     "body": "EPS pension contribution cap up to ₹2,080/month; effective 17 Sept 2026.",
+     "tags": [
+      "bank",
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Economy & PSU",
+   "stories": [
+    {
+     "id": "2026-09-22-9",
+     "title": "Indian Oil approves ₹2,449 cr Kochi–Thoothukudi gas pipeline",
+     "body": "424.65 km natural gas pipeline.",
+     "tags": [
+      "psu"
+     ]
+    },
+    {
+     "id": "2026-09-22-12",
+     "title": "HAL hands over LCA Tejas FOC trainers, HTT-40 \"Ankur\" trainers & Dhruv NG helicopters",
+     "body": "Dhruv NG is India's first indigenous civil helicopter with AS-4 compliance.",
+     "tags": [
+      "psu",
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-22-13",
+     "title": "Adani Power's 3,200 MW ultra-supercritical plant in Dhubri (Assam)",
+     "body": "₹48,000 crore investment; Northeast's largest power asset.",
+     "tags": [
+      "bank",
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-22-14",
+     "title": "Asia's first Telecom Manufacturing Zone in Gwalior (MP)",
+     "body": "~₹5,500 crore investment, 18,000+ jobs; DoT–MP MoU signed July 2026.",
+     "tags": [
+      "bank",
+      "upsc",
+      "psu"
+     ]
+    },
+    {
+     "id": "2026-09-22-15",
+     "title": "India aims to be world's No. 1 silk producer by 2028-29",
+     "body": "output rose 26,000 MT (2014) → 42,000 MT now; Karnataka leads.",
+     "tags": [
+      "bank",
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Polity & Governance",
+   "stories": [
+    {
+     "id": "2026-09-22-16",
+     "title": "FCRA (Regulation) Amendment Bill, 2026",
+     "body": "assets from foreign funds vest in a government-appointed authority if FCRA registration is cancelled/lapses; 22,496 NGO registrations cancelled since 2015.",
+     "tags": [
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-22-19",
+     "title": "LPG biometric authentication mandatory from 1 Oct 2026",
+     "body": "27.43 crore consumers (89.9%) already verified; unverified pay market price.",
+     "tags": [
+      "upsc",
+      "bank"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Defence",
+   "stories": [
+    {
+     "id": "2026-09-22-20",
+     "title": "IAF to host 2nd edition of Tarang Shakti",
+     "body": "multinational air exercise at Jodhpur, 26 Sept–12 Oct 2026.",
+     "tags": [
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-22-21",
+     "title": "Exercise Nomadic Elephant 18th edition begins",
+     "body": "India–Mongolia joint military exercise at Pithoragarh, Uttarakhand.",
+     "tags": []
+    },
+    {
+     "id": "2026-09-22-22",
+     "title": "SLINEX-26",
+     "body": "13th India–Sri Lanka bilateral naval exercise at Visakhapatnam; INS Kavaratti & INS Jyoti participated.",
+     "tags": []
+    },
+    {
+     "id": "2026-09-22-24",
+     "title": "India's first indigenous long-range OWA drone 'KAL' tested at Pokhran",
+     "body": "1,000 km range, 7–8 hr endurance, 50 kg payload.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Reports & Indexes",
+   "stories": [
+    {
+     "id": "2026-09-22-28",
+     "title": "WMO State of Global Water Resources 2025",
+     "body": "34% of groundwater stations below normal; persistent depletion in parts of India (2022–25).",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Awards, Sports & Culture",
+   "stories": [
+    {
+     "id": "2026-09-22-30",
+     "title": "20th Asian Games opened in Aichi-Nagoya, Japan",
+     "body": "theme 'Harmonic Heart Beat'; flag-bearers Manu Bhaker & Pawan Sehrawat; teqball debut.",
+     "tags": []
+    },
+    {
+     "id": "2026-09-22-31",
+     "title": "Savita Punia becomes India's most-capped women's hockey player",
+     "body": "321 senior caps (surpassed Vandana Katariya's 320); ₹10 lakh Hockey India reward.",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "name": "Science, Tech & Environment",
+   "stories": [
+    {
+     "id": "2026-09-22-34",
+     "title": "Premier Energies commissions India's largest solar cell facility",
+     "body": "7 GW N-type TOPCon plant at Naidupeta, Andhra Pradesh.",
+     "tags": [
+      "psu"
+     ]
+    },
+    {
+     "id": "2026-09-22-35",
+     "title": "India makes first farm-level soil carbon payments",
+     "body": "2,550 Punjab/Haryana farmers receive ₹2.9+ cr under the 'Aadi' programme (~50,000 verified carbon credits).",
+     "tags": [
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-22-36",
+     "title": "Deep-sea mining push",
+     "body": "India holds 3 ISA exploration contracts (~95,000 sq km); MATSYA-6000 human submersible under the Deep Ocean Mission.",
+     "tags": [
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-22-37",
+     "title": "New orchid 'Gastrodia keyiensis' discovered in Arunachal Pradesh",
+     "body": "leafless \"Ghost Flower\" along the Keyi River; paper in Phytotaxa (9 Sept 2026).",
+     "tags": [
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-22-38",
+     "title": "New cat species 'Leopardus tilcayo' identified in Bolivia",
+     "body": "first new living feline species described in over 100 years.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  }
+ ],
+ "one_liners": [
+  "UPI MDR: 0.4% above ₹2,000 (cap ₹300) — NPCI.",
+  "EPFO wage ceiling: ₹15,000 → ₹25,000; EPS cap ₹2,080/month.",
+  "Moody's FY27 GDP forecast: 7% (Baa3, stable).",
+  "Gender Gap Index 2026: India 131/145 (WEF).",
+  "Electric Mobility Index 2025 topper: Delhi (84) — NITI Aayog.",
+  "Oscars 2027 Indian entry: Gondhal (Marathi).",
+  "Dadasaheb Phalke Award 2024: Anant Nag.",
+  "Asian Games 2026 host: Aichi-Nagoya, Japan; theme 'Harmonic Heart Beat'.",
+  "Most-capped Indian women's hockey player: Savita Punia (321).",
+  "Tarang Shakti 2nd edition: Jodhpur, 26 Sept–12 Oct 2026.",
+  "Nomadic Elephant: India–Mongolia, 18th edition, Pithoragarh.",
+  "SLINEX-26: India–Sri Lanka, 13th edition, Visakhapatnam.",
+  "OWA drone 'KAL': 1,000 km range, tested at Pokhran.",
+  "MDL shipbuilding cluster: ₹27,000 cr, Dighi (Raigad).",
+  "IOCL gas pipeline: ₹2,449 cr, Kochi–Thoothukudi (424.65 km).",
+  "ONGC gas discovery: Mahanadi offshore basin.",
+  "FASTag portability: OneTag, Rajmargyatra app, 6-month cooling.",
+  "LPG biometric auth mandatory: 1 Oct 2026.",
+  "Births & Deaths (Amendment) Act, 2026 effective: 1 Oct 2026.",
+  "FCRA cancellations since 2015: 22,496; active NGOs: 14,466.",
+  "Telecom Manufacturing Zone: Gwalior, ~₹5,500 cr, 18,000+ jobs.",
+  "Soil carbon payments: ₹2.9+ cr to 2,550 farmers ('Aadi' programme).",
+  "Ghost Flower orchid: Gastrodia keyiensis, Arunachal Pradesh.",
+  "New feline species: Leopardus tilcayo, Bolivia."
+ ],
+ "quiz": [
+  {
+   "id": "2026-09-22-q1",
+   "question": "What is the revised MDR on UPI merchant transactions above ₹2,000?",
+   "options": [
+    {
+     "key": "a",
+     "text": "0.2%"
+    },
+    {
+     "key": "b",
+     "text": "0.4%"
+    },
+    {
+     "key": "c",
+     "text": "1%"
+    },
+    {
+     "key": "d",
+     "text": "No MDR"
+    }
+   ],
+   "answer": "b"
+  },
+  {
+   "id": "2026-09-22-q2",
+   "question": "The EPFO wage ceiling was raised from ₹15,000 to — ?",
+   "options": [
+    {
+     "key": "a",
+     "text": "₹20,000"
+    },
+    {
+     "key": "b",
+     "text": "₹21,000"
+    },
+    {
+     "key": "c",
+     "text": "₹25,000"
+    },
+    {
+     "key": "d",
+     "text": "₹30,000"
+    }
+   ],
+   "answer": "c"
+  },
+  {
+   "id": "2026-09-22-q3",
+   "question": "Moody's FY27 GDP growth forecast for India is — ?",
+   "options": [
+    {
+     "key": "a",
+     "text": "6%"
+    },
+    {
+     "key": "b",
+     "text": "6.5%"
+    },
+    {
+     "key": "c",
+     "text": "7%"
+    },
+    {
+     "key": "d",
+     "text": "7.5%"
+    }
+   ],
+   "answer": "c"
+  },
+  {
+   "id": "2026-09-22-q4",
+   "question": "India's rank in the WEF Global Gender Gap Index 2026 — ?",
+   "options": [
+    {
+     "key": "a",
+     "text": "129"
+    },
+    {
+     "key": "b",
+     "text": "131"
+    },
+    {
+     "key": "c",
+     "text": "135"
+    },
+    {
+     "key": "d",
+     "text": "140"
+    }
+   ],
+   "answer": "b"
+  },
+  {
+   "id": "2026-09-22-q5",
+   "question": "Which film is India's official entry for the Oscars 2027?",
+   "options": [
+    {
+     "key": "a",
+     "text": "Court"
+    },
+    {
+     "key": "b",
+     "text": "Gondhal"
+    },
+    {
+     "key": "c",
+     "text": "Shwaas"
+    },
+    {
+     "key": "d",
+     "text": "Jallikattu"
+    }
+   ],
+   "answer": "b"
+  },
+  {
+   "id": "2026-09-22-q6",
+   "question": "Exercise Nomadic Elephant is conducted between India and — ?",
+   "options": [
+    {
+     "key": "a",
+     "text": "Mongolia"
+    },
+    {
+     "key": "b",
+     "text": "Japan"
+    },
+    {
+     "key": "c",
+     "text": "France"
+    },
+    {
+     "key": "d",
+     "text": "Australia"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "2026-09-22-q7",
+   "question": "SLINEX is the bilateral naval exercise between India and — ?",
+   "options": [
+    {
+     "key": "a",
+     "text": "Singapore"
+    },
+    {
+     "key": "b",
+     "text": "Sri Lanka"
+    },
+    {
+     "key": "c",
+     "text": "Seychelles"
+    },
+    {
+     "key": "d",
+     "text": "South Africa"
+    }
+   ],
+   "answer": "b"
+  },
+  {
+   "id": "2026-09-22-q8",
+   "question": "The OneTag service relates to — ?",
+   "options": [
+    {
+     "key": "a",
+     "text": "UPI"
+    },
+    {
+     "key": "b",
+     "text": "FASTag portability"
+    },
+    {
+     "key": "c",
+     "text": "Aadhaar"
+    },
+    {
+     "key": "d",
+     "text": "PAN"
+    }
+   ],
+   "answer": "b"
+  },
+  {
+   "id": "2026-09-22-q9",
+   "question": "India's first indigenous long-range OWA drone tested at Pokhran is named — ?",
+   "options": [
+    {
+     "key": "a",
+     "text": "KAL"
+    },
+    {
+     "key": "b",
+     "text": "Ghatak"
+    },
+    {
+     "key": "c",
+     "text": "Archer"
+    },
+    {
+     "key": "d",
+     "text": "Tapas"
+    }
+   ],
+   "answer": "a"
+  },
+  {
+   "id": "2026-09-22-q10",
+   "question": "The Dadasaheb Phalke Award for 2024 goes to — ?",
+   "options": [
+    {
+     "key": "a",
+     "text": "Anant Nag"
+    },
+    {
+     "key": "b",
+     "text": "Kamal Haasan"
+    },
+    {
+     "key": "c",
+     "text": "Shabana Azmi"
+    },
+    {
+     "key": "d",
+     "text": "Mohanlal"
+    }
+   ],
+   "answer": "a"
+  }
+ ]
+}

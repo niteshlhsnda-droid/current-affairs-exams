@@ -1,0 +1,37 @@
+{
+ "slug": "2026-01-05",
+ "date": "5 January 2026",
+ "categories": [
+  {
+   "name": "Defence",
+   "stories": [
+    {
+     "id": "2026-01-05-1",
+     "title": "ICGS 'Samudra Pratap' dedicated to the nation (Jan 5)",
+     "body": "India's first indigenous pollution-control vessel, built by Goa Shipyard Limited.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science & Technology",
+   "stories": [
+    {
+     "id": "2026-01-05-2",
+     "title": "CSIR-NPL's National Environmental Standard Laboratory inaugurated (Jan 5)",
+     "body": "Asia's first and the world's second facility for testing and certifying air-pollution monitoring devices (supports the National Clean Air Programme).",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  }
+ ],
+ "one_liners": [
+  "ICGS 'Samudra Pratap' dedicated to the nation (Jan 5) — India's first indigenous pollution-control vessel, built by Goa Shipyard Limited.",
+  "CSIR-NPL's National Environmental Standard Laboratory inaugurated (Jan 5) — Asia's first and the world's second facility for testing and certifying air-pollution monitoring devices (supports the National…"
+ ],
+ "quiz": []
+}

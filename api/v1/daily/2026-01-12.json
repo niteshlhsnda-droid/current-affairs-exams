@@ -1,0 +1,38 @@
+{
+ "slug": "2026-01-12",
+ "date": "12 January 2026",
+ "categories": [
+  {
+   "name": "International Relations",
+   "stories": [
+    {
+     "id": "2026-01-12-1",
+     "title": "German Chancellor Friedrich Merz visits India (Jan 12–13)",
+     "body": "Ahmedabad and Bengaluru; 19 strategic agreements covering defence tech, critical minerals, supply chains and clean energy; India–UAE agreed to double bilateral trade to $200 billion by 2032 with a new Strategic Defence Partnership.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Science & Technology",
+   "stories": [
+    {
+     "id": "2026-01-12-2",
+     "title": "ISRO's PSLV-C62/EOS-N1 mission faces third-stage anomaly on Jan 12",
+     "body": "64th PSLV flight carrying DRDO's strategic surveillance satellite Anvesha plus 15 co-passenger satellites (7 from Dhruva Space); mission data under analysis; NSIL's 9th dedicated commercial launch.",
+     "tags": [
+      "upsc",
+      "high-yield"
+     ]
+    }
+   ]
+  }
+ ],
+ "one_liners": [
+  "German Chancellor Friedrich Merz visits India (Jan 12–13) — Ahmedabad and Bengaluru",
+  "ISRO's PSLV-C62/EOS-N1 mission faces third-stage anomaly on Jan 12 — 64th PSLV flight carrying DRDO's strategic surveillance satellite Anvesha plus 15 co-passenger satellites (7 from Dhruva Space)"
+ ],
+ "quiz": []
+}

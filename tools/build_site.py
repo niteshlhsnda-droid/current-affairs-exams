@@ -8,7 +8,7 @@ quiz questions and answers. Only layout/chrome changes.
 To roll the nav forward when a new daily/monthly is published, update
 LATEST_DAILY / LATEST_MONTHLY below and re-run.
 """
-import os, re, html as ihtml
+import os, re, sys, html as ihtml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LATEST_DAILY = "2026-09-23"    # slug of newest daily page (updates/<slug>.html)
@@ -612,6 +612,15 @@ def main():
     build_compare()
     build_archive(months)
     build_index(months, top5, compare_section, sept_days)
+
+    # JSON feed for the Flutter app — regenerated with every site rebuild
+    # so the app always sees the newest digests.
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "tools"))
+        import build_api
+        build_api.main()
+    except Exception as e:
+        print(f"  WARNING: build_api failed: {e}")
     print("DONE")
 
 if __name__ == "__main__":
