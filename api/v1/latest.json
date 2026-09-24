@@ -1,27 +1,28 @@
 {
- "latest": "2026-09-23",
- "updated": "2026-09-23",
+ "latest": "2026-09-24",
+ "updated": "2026-09-24",
  "summary": {
-  "slug": "2026-09-23",
-  "date": "23 September 2026",
-  "story_count": 13,
-  "one_liner_count": 15,
+  "slug": "2026-09-24",
+  "date": "24 September 2026",
+  "story_count": 20,
+  "one_liner_count": 19,
   "quiz_count": 10,
-  "high_yield_count": 7,
+  "high_yield_count": 8,
   "categories": [
-   "Banking & Finance",
    "Defence",
+   "Banking & Finance",
    "International",
    "Awards & Culture",
    "Sports",
-   "Important Days"
+   "Important Days",
+   "Schemes & Governance"
   ],
   "top_stories": [
-   "RBI's bond sales & FX intervention halve liquidity surplus",
-   "RBI extends simplified KYC certification for FPIs at co-operative banks",
-   "RBI bulk-deposit rate disclosure rules from 1 Oct 2026",
-   "SEBI pushes banks into commodity derivatives; RBI/IRDAI hold back",
-   "Tarang Shakti 2026: F-35s to fly with IAF for the first time"
+   "MoD signs ₹810.79 crore SAT-SAAW deal with BDL",
+   "DRDO's 30kW laser anti-drone weapon moves toward production",
+   "Exercise Yudh Abhyas 2026 (22nd edition)",
+   "Tata's defence plant inaugurated in Berrechid, Morocco",
+   "SEBI Board meets 24 Sept with major reforms on the agenda"
   ]
  }
 }
