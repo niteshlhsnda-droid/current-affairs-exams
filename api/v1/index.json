@@ -4,10 +4,10 @@
   {
    "slug": "2026-09-24",
    "date": "24 September 2026",
-   "story_count": 20,
-   "one_liner_count": 19,
+   "story_count": 33,
+   "one_liner_count": 24,
    "quiz_count": 10,
-   "high_yield_count": 8,
+   "high_yield_count": 13,
    "categories": [
     "Defence",
     "Banking & Finance",
@@ -15,7 +15,13 @@
     "Awards & Culture",
     "Sports",
     "Important Days",
-    "Schemes & Governance"
+    "Schemes & Governance",
+    "Defence",
+    "Banking & Finance",
+    "International",
+    "Science & Technology",
+    "Schemes & Governance",
+    "Appointments & Polity"
    ],
    "top_stories": [
     "MoD signs ₹810.79 crore SAT-SAAW deal with BDL",
