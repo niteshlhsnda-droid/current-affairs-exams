@@ -1,6 +1,31 @@
 {
- "count": 90,
+ "count": 91,
  "days": [
+  {
+   "slug": "2026-09-25",
+   "date": "25 September 2026",
+   "story_count": 15,
+   "one_liner_count": 22,
+   "quiz_count": 10,
+   "high_yield_count": 9,
+   "categories": [
+    "Defence",
+    "Banking & Finance",
+    "International",
+    "Schemes & Governance",
+    "Science & Technology",
+    "Education",
+    "Sports",
+    "Important Days"
+   ],
+   "top_stories": [
+    "INS Trishul arrives at Toulon for 24th Exercise VARUNA",
+    "Yudh Abhyas 2026: US Ambassador Sergio Gor witnesses the drill",
+    "CDS stresses integration of technology, data and industry",
+    "SEBI Board approves sweeping reforms at 215th meeting (24 Sept)",
+    "Bank strike 28–30 Sept: today is the last full working day"
+   ]
+  },
   {
    "slug": "2026-09-24",
    "date": "24 September 2026",

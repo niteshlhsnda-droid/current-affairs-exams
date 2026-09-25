@@ -1,34 +1,29 @@
 {
- "latest": "2026-09-24",
- "updated": "2026-09-24",
+ "latest": "2026-09-25",
+ "updated": "2026-09-25",
  "summary": {
-  "slug": "2026-09-24",
-  "date": "24 September 2026",
-  "story_count": 33,
-  "one_liner_count": 24,
+  "slug": "2026-09-25",
+  "date": "25 September 2026",
+  "story_count": 15,
+  "one_liner_count": 22,
   "quiz_count": 10,
-  "high_yield_count": 13,
+  "high_yield_count": 9,
   "categories": [
    "Defence",
    "Banking & Finance",
    "International",
-   "Awards & Culture",
-   "Sports",
-   "Important Days",
    "Schemes & Governance",
-   "Defence",
-   "Banking & Finance",
-   "International",
    "Science & Technology",
-   "Schemes & Governance",
-   "Appointments & Polity"
+   "Education",
+   "Sports",
+   "Important Days"
   ],
   "top_stories": [
-   "MoD signs ₹810.79 crore SAT-SAAW deal with BDL",
-   "DRDO's 30kW laser anti-drone weapon moves toward production",
-   "Exercise Yudh Abhyas 2026 (22nd edition)",
-   "Tata's defence plant inaugurated in Berrechid, Morocco",
-   "SEBI Board meets 24 Sept with major reforms on the agenda"
+   "INS Trishul arrives at Toulon for 24th Exercise VARUNA",
+   "Yudh Abhyas 2026: US Ambassador Sergio Gor witnesses the drill",
+   "CDS stresses integration of technology, data and industry",
+   "SEBI Board approves sweeping reforms at 215th meeting (24 Sept)",
+   "Bank strike 28–30 Sept: today is the last full working day"
   ]
  }
 }
