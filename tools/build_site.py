@@ -216,6 +216,7 @@ def page_shell(title, prefix, active, crumbs, main_html, description=""):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="/current-affairs-exams/auth.js"></script>
 <title>{title}</title>
 <meta name="description" content="{ihtml.escape(desc, quote=True)}">
 <link rel="stylesheet" href="{prefix}style.css">
@@ -537,6 +538,7 @@ def build_index(months, top5, compare_section, sept_days):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="/current-affairs-exams/auth.js"></script>
 <title>Current Affairs for Exams — Bank • UPSC • PSU</title>
 <meta name="description" content="Exam-ready daily current affairs for Bank, UPSC and PSU aspirants — top stories, rapid-fire one-liners and quizzes.">
 <link rel="stylesheet" href="style.css">
