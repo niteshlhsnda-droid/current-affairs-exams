@@ -11,7 +11,7 @@ LATEST_DAILY / LATEST_MONTHLY below and re-run.
 import os, re, sys, html as ihtml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LATEST_DAILY = "2026-09-24"    # slug of newest daily page (updates/<slug>.html)
+LATEST_DAILY = "2026-09-25"    # slug of newest daily page (updates/<slug>.html)
 LATEST_MONTHLY = "2026-08"     # slug of newest monthly digest (monthly/<slug>.html)
 
 MONTH_NAMES = ["January","February","March","April","May","June","July",
