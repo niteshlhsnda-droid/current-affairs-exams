@@ -177,6 +177,148 @@
      ]
     }
    ]
+  },
+  {
+   "name": "International & Economy",
+   "stories": [
+    {
+     "id": "2026-09-25-16",
+     "title": "India–New Zealand FTA to enter into force on 20 Oct 2026",
+     "body": "Piyush Goyal announced the pact, signed on 27 April 2026 at Bharat Mandapam by Goyal and NZ Trade Minister Todd McClay, will take effect after ratification in both countries; 100% of India's exports to NZ get duty-free access (textiles & apparel, leather & footwear, gems & jewellery, engineering goods, processed foods); India also gets duty-free inputs like wooden logs, coking coal and metal scrap; aim: double bilateral trade to ₹35,000 crore within five years.",
+     "tags": [
+      "bank",
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-25-17",
+     "title": "Fitch raises India's FY27 GDP growth forecast to 6.9%",
+     "body": "up 50 bps from 6.4%, citing stronger-than-expected growth and resilient investment; India grew 7.8% YoY in Q1 FY27 despite the energy-price shock from the US–Iran conflict; Fitch expects headline inflation to rise to 5.5% by Dec 2026, easing to 4.2% by end-2027.",
+     "tags": [
+      "bank",
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Defence & Security",
+   "stories": [
+    {
+     "id": "2026-09-25-18",
+     "title": "MoD signs ₹810.79 crore contract with BDL for 160 SAT-SAAW systems",
+     "body": "signed 23 Sept in New Delhi (Defence Secretary Rajesh Kumar Singh) under the Buy (Indian-IDDM) category; the Satellite Smart Anti-Airfield Weapon is a DRDO-developed air-to-ground precision glide bomb (60% indigenous content) that can be launched from Jaguar, Hawk and Su-30 MKI aircraft; delivery in 2027-28 and 2028-29 will strengthen the IAF's precision-strike capability.",
+     "tags": [
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-25-19",
+     "title": "Nomadic Elephant 2026: 18th India–Mongolia joint exercise begins",
+     "body": "under way at Pithoragarh, Uttarakhand, with 45 personnel from each side; focus on counter-insurgency operations under a UN mandate, plus drone operations, cybersecurity and cordon-and-search drills.",
+     "tags": [
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-25-20",
+     "title": "3rd ANTF Conference; Amit Shah sets drug-free India target for 2029",
+     "body": "the two-day National Conference of Anti-Narcotics Task Force heads of states/UTs (New Delhi, 22–23 Sept; 36 states/UTs) was organised by the NCB on the theme \"United Resolve, Shared Responsibility\"; it will implement the Vision Document on Narcotics Control (2026–2029) targeting a drug-free India by 31 December 2029, aligned with Viksit Bharat 2047; Shah also released four anti-narcotics TVCs, launched the revamped NCB website and laid foundation stones for NCB zonal complexes at Lucknow and Dehradun.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Health & Multilateral",
+   "stories": [
+    {
+     "id": "2026-09-25-21",
+     "title": "OneSCD: India co-hosts global sickle-cell partnership at UNGA81",
+     "body": "launched 23 Sept in New York alongside Nigeria, WHO, UNICEF, Africa CDC, St. Jude Children's Research Hospital and the World Coalition on Sickle Cell Disease; the partnership aims to close global gaps in diagnosis, treatment and survival for sickle cell disease; India showcased its National Sickle Cell Anaemia Elimination Mission (2023, elimination target 2047) — 72.9 million+ screened, 2 million+ carriers identified, 2.5 lakh diagnosed and 49.3 million Sickle Cell Cards issued.",
+     "tags": [
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-25-22",
+     "title": "AB PM-JAY completes 8 years with 60+ crore beneficiaries",
+     "body": "launched by PM Modi on 23 Sept 2018 at Ranchi, the Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (MoH&FW) is the world's largest government-funded public health insurance scheme: ₹5 lakh annual cover per family for secondary and tertiary care; centrally sponsored with 60:40 Centre–state funding (90:10 for NE states, HP, Uttarakhand, J&K).",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Banking & Finance",
+   "stories": [
+    {
+     "id": "2026-09-25-23",
+     "title": "ICICI Prudential Life Insurance renamed ICICI Life Insurance",
+     "body": "effective 22 Sept 2026 after RoC approval; UK-based Prudential plc is being reclassified from promoter to passive investor in the company as it plans to acquire a controlling stake in Bharti Life Insurance.",
+     "tags": [
+      "bank"
+     ]
+    },
+    {
+     "id": "2026-09-25-24",
+     "title": "BIS certification made mandatory for smartphone screen protectors",
+     "body": "MeitY brought them under the Compulsory Registration Order, 2021, from 1 April 2027, requiring conformity to IS 19348:2025 (thickness, dimensions, light transmission, visual defects, strength) before manufacture, import or sale; the 66th product category under the framework, alongside smartphones, laptops, chargers, LED TVs and set-top boxes.",
+     "tags": [
+      "bank",
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Energy & Sports",
+   "stories": [
+    {
+     "id": "2026-09-25-25",
+     "title": "Premier Energies commissions India's largest solar cell facility",
+     "body": "a 7 GW N-type TOPCon (G12R) plant at Naidupeta, Andhra Pradesh (101 acres, ₹3,293 crore capex), lifting the company's total solar cell capacity from 3.6 GW to 10.6 GW — India's largest; trial runs are on before commercial production, with ~88,000 cells/hour at ~25.8% average efficiency and Zero Liquid Discharge recycling.",
+     "tags": [
+      "bank",
+      "psu",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-25-26",
+     "title": "Pune to host UCI Road World Championships 2032",
+     "body": "announced at the UCI's 195th Congress in Montréal: cycling's road world championships come to India for the first time; Pune's bid (jointly led by the Maharashtra government and the Cycling Federation of India) beat Groningen/Drenthe, Netherlands, in the final round.",
+     "tags": [
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-25-27",
+     "title": "Jay Meena: India's first-ever Asian Games soft-tennis medal",
+     "body": "the 26-year-old from Dewas (MP) took bronze in men's singles on 23 Sept, losing 2–4 to Japan's Takuya Kurosaka in the semifinal; he had beaten Pakistan's Arain Hussain 4–0 in the group stage and the Philippines' Sherwin Nuguit 4–3 in a 7-game quarterfinal thriller.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "State & Governance",
+   "stories": [
+    {
+     "id": "2026-09-25-28",
+     "title": "Delhi Cabinet approves DURGA scheme: 1,300 pink e-autos",
+     "body": "the Driving Upliftment and Rozgar for Women/Transgender Green E-Auto scheme gives dignified self-employment to women and transgender persons (1,170 autos for women, 130 for transgender persons; up to 90 and 10 respectively per revenue district); eligibility: women aged 20–40, Delhi residents with voter ID, LMV licence and PSV badge, family income up to ₹5 lakh; 3-year vehicle lock-in.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
   }
  ],
  "one_liners": [
