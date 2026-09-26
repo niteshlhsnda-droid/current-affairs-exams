@@ -1,35 +1,34 @@
 {
- "latest": "2026-09-25",
- "updated": "2026-09-25",
+ "latest": "2026-09-26",
+ "updated": "2026-09-26",
  "summary": {
-  "slug": "2026-09-25",
-  "date": "25 September 2026",
+  "slug": "2026-09-26",
+  "date": "26 September 2026",
   "story_count": 28,
-  "one_liner_count": 22,
+  "one_liner_count": 27,
   "quiz_count": 10,
-  "high_yield_count": 13,
+  "high_yield_count": 9,
   "categories": [
    "Defence",
    "Banking & Finance",
-   "International",
+   "Economy",
    "Schemes & Governance",
    "Science & Technology",
-   "Education",
+   "Governance & Appointments",
+   "Polity",
+   "International",
+   "Environment",
+   "Awards & Recognition",
+   "Books & Authors",
    "Sports",
-   "Important Days",
-   "International & Economy",
-   "Defence & Security",
-   "Health & Multilateral",
-   "Banking & Finance",
-   "Energy & Sports",
-   "State & Governance"
+   "Important Days"
   ],
   "top_stories": [
-   "INS Trishul arrives at Toulon for 24th Exercise VARUNA",
-   "Yudh Abhyas 2026: US Ambassador Sergio Gor witnesses the drill",
-   "CDS stresses integration of technology, data and industry",
-   "SEBI Board approves sweeping reforms at 215th meeting (24 Sept)",
-   "Bank strike 28–30 Sept: today is the last full working day"
+   "Exercise Tarang Shakti 2026 begins today at Jodhpur",
+   "DRDO inks TDF pact with Zero mK India for 20 mK dilution refrigerator",
+   "PFRDA issues operational guidelines for NPS Swasthya",
+   "RBI alters valuation norms for REITs and InvITs",
+   "Samvriddhi Inclusive gets RBI in-principle approval to operate as PA-Online"
   ]
  }
 }

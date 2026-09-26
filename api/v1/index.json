@@ -1,6 +1,36 @@
 {
- "count": 91,
+ "count": 92,
  "days": [
+  {
+   "slug": "2026-09-26",
+   "date": "26 September 2026",
+   "story_count": 28,
+   "one_liner_count": 27,
+   "quiz_count": 10,
+   "high_yield_count": 9,
+   "categories": [
+    "Defence",
+    "Banking & Finance",
+    "Economy",
+    "Schemes & Governance",
+    "Science & Technology",
+    "Governance & Appointments",
+    "Polity",
+    "International",
+    "Environment",
+    "Awards & Recognition",
+    "Books & Authors",
+    "Sports",
+    "Important Days"
+   ],
+   "top_stories": [
+    "Exercise Tarang Shakti 2026 begins today at Jodhpur",
+    "DRDO inks TDF pact with Zero mK India for 20 mK dilution refrigerator",
+    "PFRDA issues operational guidelines for NPS Swasthya",
+    "RBI alters valuation norms for REITs and InvITs",
+    "Samvriddhi Inclusive gets RBI in-principle approval to operate as PA-Online"
+   ]
+  },
   {
    "slug": "2026-09-25",
    "date": "25 September 2026",
