@@ -1,6 +1,30 @@
 {
- "count": 92,
+ "count": 93,
  "days": [
+  {
+   "slug": "2026-09-27",
+   "date": "27 September 2026",
+   "story_count": 13,
+   "one_liner_count": 14,
+   "quiz_count": 10,
+   "high_yield_count": 7,
+   "categories": [
+    "International",
+    "National Security & Governance",
+    "Economy & Infrastructure",
+    "Food & Consumer Regulation",
+    "Science & Environment",
+    "Sports",
+    "Important Days"
+   ],
+   "top_stories": [
+    "Jaishankar's 'serial practitioner of terrorism' attack on Pakistan at UNGA81",
+    "Trump–Xi White House summit ends with no breakthrough",
+    "Macron renews push to regulate UNSC veto at UNGA81",
+    "AFSPA extended for 6 months in parts of Manipur, Nagaland, Arunachal",
+    "The RUPP conundrum: Ashok Lavasa flags shell-party funding"
+   ]
+  },
   {
    "slug": "2026-09-26",
    "date": "26 September 2026",

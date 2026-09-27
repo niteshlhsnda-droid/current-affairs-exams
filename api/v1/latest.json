@@ -1,41 +1,28 @@
 {
- "latest": "2026-09-26",
- "updated": "2026-09-26",
+ "latest": "2026-09-27",
+ "updated": "2026-09-27",
  "summary": {
-  "slug": "2026-09-26",
-  "date": "26 September 2026",
-  "story_count": 47,
-  "one_liner_count": 27,
+  "slug": "2026-09-27",
+  "date": "27 September 2026",
+  "story_count": 13,
+  "one_liner_count": 14,
   "quiz_count": 10,
-  "high_yield_count": 18,
+  "high_yield_count": 7,
   "categories": [
-   "Defence",
-   "Banking & Finance",
-   "Economy",
-   "Schemes & Governance",
-   "Science & Technology",
-   "Governance & Appointments",
-   "Polity",
    "International",
-   "Environment",
-   "Awards & Recognition",
-   "Books & Authors",
+   "National Security & Governance",
+   "Economy & Infrastructure",
+   "Food & Consumer Regulation",
+   "Science & Environment",
    "Sports",
-   "Important Days",
-   "National & Governance",
-   "Economy",
-   "Science & Technology",
-   "International",
-   "Agriculture & Trade",
-   "Defence",
-   "Sports"
+   "Important Days"
   ],
   "top_stories": [
-   "Exercise Tarang Shakti 2026 begins today at Jodhpur",
-   "DRDO inks TDF pact with Zero mK India for 20 mK dilution refrigerator",
-   "PFRDA issues operational guidelines for NPS Swasthya",
-   "RBI alters valuation norms for REITs and InvITs",
-   "Samvriddhi Inclusive gets RBI in-principle approval to operate as PA-Online"
+   "Jaishankar's 'serial practitioner of terrorism' attack on Pakistan at UNGA81",
+   "Trump–Xi White House summit ends with no breakthrough",
+   "Macron renews push to regulate UNSC veto at UNGA81",
+   "AFSPA extended for 6 months in parts of Manipur, Nagaland, Arunachal",
+   "The RUPP conundrum: Ashok Lavasa flags shell-party funding"
   ]
  }
 }
