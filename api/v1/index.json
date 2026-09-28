@@ -4,17 +4,22 @@
   {
    "slug": "2026-09-28",
    "date": "28 September 2026",
-   "story_count": 11,
-   "one_liner_count": 13,
+   "story_count": 24,
+   "one_liner_count": 21,
    "quiz_count": 10,
-   "high_yield_count": 7,
+   "high_yield_count": 14,
    "categories": [
     "Economy & Banking",
     "International",
     "Governance & Polity",
     "Defence & Foreign Policy",
     "Environment & Health",
-    "Sports"
+    "Sports",
+    "Infrastructure & Economy",
+    "Defence & Science",
+    "Appointments & Schemes",
+    "Sports",
+    "Skills & Education"
    ],
    "top_stories": [
     "India's first blue bond launches today: ₹600 crore by Sagarmala Finance Corporation",
