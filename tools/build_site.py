@@ -608,6 +608,38 @@ def main():
 
     sept_days = months[0]["dailies"]
 
+    # repair: the archive parser only recovers entries from the previous archive.html,
+    # so dailies added on 2026-09-24+ were never listed in the current-month block.
+    # Re-merge every September-2026 daily found in updates/*.md (idempotent).
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "tools"))
+        import build_api
+        sept_have = {s for s, _, _ in months[0]["dailies"]}
+        missing = []
+        for slug in sorted(f[:-3] for f in os.listdir(os.path.join(ROOT, "updates"))
+                           if f.endswith(".md")):
+            if slug.startswith("2026-09") and slug not in sept_have:
+                with open(os.path.join(ROOT, "updates", slug + ".md"),
+                          encoding="utf-8") as fh:
+                    day = build_api.parse_digest(slug, fh.read())
+                n_stories = sum(len(c["stories"]) for c in day["categories"])
+                n_ol, n_q = len(day["one_liners"]), len(day["quiz"])
+                note = f"{n_stories} stor{'ies' if n_stories != 1 else 'y'}"
+                if n_ol:
+                    note += ", rapid-fire one-liners"
+                if n_q:
+                    note += ", quiz"
+                missing.append((slug, build_api.date_label(slug), note))
+        if missing:
+            dailies = list(months[0]["dailies"]) + missing
+            dailies.sort(key=lambda t: t[0], reverse=True)  # newest first
+            months[0]["dailies"] = dailies
+            sept_days = dailies
+            print(f"  archive repair: added {len(missing)} missing Sept dailies: "
+                  + ", ".join(s for s, _, _ in missing))
+    except Exception as e:
+        print(f"  WARNING: archive repair failed: {e}")
+
     build_style()
     build_dailies(dates)
     build_monthlies()
