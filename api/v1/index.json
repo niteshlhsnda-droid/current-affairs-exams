@@ -1,6 +1,29 @@
 {
- "count": 93,
+ "count": 94,
  "days": [
+  {
+   "slug": "2026-09-28",
+   "date": "28 September 2026",
+   "story_count": 11,
+   "one_liner_count": 13,
+   "quiz_count": 10,
+   "high_yield_count": 7,
+   "categories": [
+    "Economy & Banking",
+    "International",
+    "Governance & Polity",
+    "Defence & Foreign Policy",
+    "Environment & Health",
+    "Sports"
+   ],
+   "top_stories": [
+    "India's first blue bond launches today: ₹600 crore by Sagarmala Finance Corporation",
+    "Power Ministry invokes Section 11, orders captive coal plants to run at full capacity",
+    "UFBU 3-day bank strike begins today; banks opened on Sunday to cushion it",
+    "Economists raise odds of RBI rate hike at the October MPC meeting",
+    "FM Sitharaman in Doha for 11th AIIB Board of Governors meeting"
+   ]
+  },
   {
    "slug": "2026-09-27",
    "date": "27 September 2026",

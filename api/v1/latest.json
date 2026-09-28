@@ -1,28 +1,27 @@
 {
- "latest": "2026-09-27",
- "updated": "2026-09-27",
+ "latest": "2026-09-28",
+ "updated": "2026-09-28",
  "summary": {
-  "slug": "2026-09-27",
-  "date": "27 September 2026",
-  "story_count": 13,
-  "one_liner_count": 14,
+  "slug": "2026-09-28",
+  "date": "28 September 2026",
+  "story_count": 11,
+  "one_liner_count": 13,
   "quiz_count": 10,
   "high_yield_count": 7,
   "categories": [
+   "Economy & Banking",
    "International",
-   "National Security & Governance",
-   "Economy & Infrastructure",
-   "Food & Consumer Regulation",
-   "Science & Environment",
-   "Sports",
-   "Important Days"
+   "Governance & Polity",
+   "Defence & Foreign Policy",
+   "Environment & Health",
+   "Sports"
   ],
   "top_stories": [
-   "Jaishankar's 'serial practitioner of terrorism' attack on Pakistan at UNGA81",
-   "Trump–Xi White House summit ends with no breakthrough",
-   "Macron renews push to regulate UNSC veto at UNGA81",
-   "AFSPA extended for 6 months in parts of Manipur, Nagaland, Arunachal",
-   "The RUPP conundrum: Ashok Lavasa flags shell-party funding"
+   "India's first blue bond launches today: ₹600 crore by Sagarmala Finance Corporation",
+   "Power Ministry invokes Section 11, orders captive coal plants to run at full capacity",
+   "UFBU 3-day bank strike begins today; banks opened on Sunday to cushion it",
+   "Economists raise odds of RBI rate hike at the October MPC meeting",
+   "FM Sitharaman in Doha for 11th AIIB Board of Governors meeting"
   ]
  }
 }
