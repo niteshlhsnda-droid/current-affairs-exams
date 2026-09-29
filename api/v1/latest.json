@@ -1,32 +1,28 @@
 {
- "latest": "2026-09-28",
- "updated": "2026-09-28",
+ "latest": "2026-09-29",
+ "updated": "2026-09-29",
  "summary": {
-  "slug": "2026-09-28",
-  "date": "28 September 2026",
-  "story_count": 24,
-  "one_liner_count": 21,
+  "slug": "2026-09-29",
+  "date": "29 September 2026",
+  "story_count": 14,
+  "one_liner_count": 15,
   "quiz_count": 10,
-  "high_yield_count": 14,
+  "high_yield_count": 7,
   "categories": [
    "Economy & Banking",
-   "International",
-   "Governance & Polity",
-   "Defence & Foreign Policy",
-   "Environment & Health",
-   "Sports",
-   "Infrastructure & Economy",
+   "Infrastructure & Industry",
+   "Governance & Education",
+   "Foreign Policy & Diplomacy",
    "Defence & Science",
-   "Appointments & Schemes",
-   "Sports",
-   "Skills & Education"
+   "Agriculture",
+   "Sports"
   ],
   "top_stories": [
-   "India's first blue bond launches today: ₹600 crore by Sagarmala Finance Corporation",
-   "Power Ministry invokes Section 11, orders captive coal plants to run at full capacity",
-   "UFBU 3-day bank strike begins today; banks opened on Sunday to cushion it",
-   "Economists raise odds of RBI rate hike at the October MPC meeting",
-   "FM Sitharaman in Doha for 11th AIIB Board of Governors meeting"
+   "India's first blue bond pulled on launch day",
+   "Supreme Court refuses to stay 0.4% MDR on UPI above ₹2,000",
+   "UFBU strike deferred: no 28–30 Sept bank strike",
+   "Fitch raises India's FY27 growth forecast to 6.9%",
+   "NHSRCL launches first 100-metre steel bridge for the bullet train"
   ]
  }
 }
