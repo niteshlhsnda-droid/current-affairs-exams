@@ -160,6 +160,132 @@
      ]
     }
    ]
+  },
+  {
+   "name": "Sports",
+   "stories": [
+    {
+     "id": "2026-09-29-1",
+     "title": "Asian Games Day 11 (29 Sept): Neeru Dhanda wins India's 5th gold",
+     "body": "shooter Neeru Dhanda won the women's trap individual gold (Outlook calls it a \"historic gold\") and also partnered Manisha Keer and Aashima Ahlawat for the women's trap team silver; India's men's trap team (Shapath Bharadwaj, Kynan Chenai, Ahvar Rizvi) finished 6th. Day 11 tally stood at 47 = 5G/21S/21B, India 11th (latestly, 11:40 AM IST).",
+     "tags": [
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-29-2",
+     "title": "Athletics final day (29 Sept): women's 4x400m relay gold",
+     "body": "Kiran, Prachi, M.R. Poovamma and Vithya Ramraj won the women's 4x400m relay gold; Gulveer Singh took bronze in the men's 5000m; Pooja bronze in the women's high jump; and bronze in both the mixed 4x100m relay (Gurindervir Singh, Animesh Kujur, Harita Bhadra, Sneha SS) and the men's 4x400m relay (Dharmveer Choudhary, Manu T, Jay Kumar, Vishal TK).",
+     "tags": [
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-29-3",
+     "title": "Boxing: Hooda and Ankush into finals, Berwal takes bronze",
+     "body": "Parveen Hooda and Ankush won their semifinal bouts to reach the finals (a guaranteed silver each, playing for gold); Narender Berwal lost his men's 90+kg semifinal and brought home bronze (morning edition: Kapil Pokhariya assured a medal in the 90kg class).",
+     "tags": [
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-29-4",
+     "title": "Archery: Neeraj Chauhan stuns Korean great",
+     "body": "recurve archer Neeraj Chauhan defeated Republic of Korea's Kim Je Deok, a multiple-time Olympic and world championship medallist, in the round of 32; Kirti and Kumkum Mohod reached the women's recurve round of 16.",
+     "tags": [
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-29-5",
+     "title": "⚠️ Cricket correction: men's semifinal is 1 Oct, India vs Sri Lanka",
+     "body": "all four men's quarter-finals were washed out without a ball bowled (Sri Lanka–Nepal and Bangladesh–Malaysia abandoned on 29 Sept without a toss, after India–Afghanistan and Pakistan–Hong Kong on 28 Sept); the higher-seeded sides advanced, so India face Sri Lanka and Pakistan face Bangladesh in the semi-finals on 1 October, with the final on 3 October. The morning edition's \"semi-final today\" line is corrected — five straight men's games have now been rain-affected.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Defence & Security",
+   "stories": [
+    {
+     "id": "2026-09-29-6",
+     "title": "KAZIND-2026: 60-member Indian contingent departs for Kazakhstan",
+     "body": "India joined Kazakhstan for the 9th edition of Exercise KAZIND (Insights IAS, dailygkupdate); the contingent is at Oskemen, Kazakhstan, and the drill focuses on joint counter-terrorism operations in a sub-conventional environment under a UN mandate (semi-urban and mountainous terrain). The morning edition carried Yudh Abhyas (US) and VINBAX (Vietnam); KAZIND completes today's joint-exercise set.",
+     "tags": [
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-29-7",
+     "title": "Theatre-commands operationalisation conference — single-source report",
+     "body": "freejobalert's 29 Sept roundup reports that CDS General Anil Chauhan chaired the inaugural Joint Services Commanders' Conference on 'Theatre Commands Operationalisation 2026-27' at Integrated Defence Staff HQ, New Delhi, on 28–29 Sept, finalising a staggered rollout of India's three integrated theatre commands — Northern (Lucknow), Western (Jaipur), Maritime (Thiruvananthapuram) — between January and December 2027. Not yet corroborated by a second source — carried with this caveat; context: the CDS had earlier submitted the final theatre-commands report to the Defence Ministry (reported at the Kalam & Kavach 3.0 dialogue).",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Appointments & Infrastructure",
+   "stories": [
+    {
+     "id": "2026-09-29-8",
+     "title": "IRDAI gets two whole-time members",
+     "body": "Dinesh Pant (former Managing Director of LIC, voluntary retirement effective 24 Sept 2026) assumed charge as Whole-Time Member (Actuary); Girija Subramanian (former CMD of New India Assurance, retired July 2026) assumed charge as Whole-Time Member (Distribution) of the Insurance Regulatory and Development Authority of India. Static GK: IRDAI established 1999, HQ Hyderabad, chair Ajay Seth.",
+     "tags": [
+      "bank",
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-29-9",
+     "title": "Akhil Gupta appointed Chairperson of Coforge",
+     "body": "effective 29 September 2026 for a five-year period, as Non-Executive Independent Director and Chairperson; Gupta is the former Vice Chairman of Bharti Enterprises with four decades of experience.",
+     "tags": [
+      "bank",
+      "upsc"
+     ]
+    },
+    {
+     "id": "2026-09-29-10",
+     "title": "₹122 crore approved for Barbil–Bolanikhadan rail doubling",
+     "body": "Indian Railways approved doubling a 6-km stretch between Barbil and Bolanikhadan (South Eastern Railway) for iron-ore movement under the Energy, Mineral and Cement Corridor; the single line carries ~9 MTPA (~6 loaded iron-ore rakes/day) today, with an additional 8.9 MTPA expected after doubling.",
+     "tags": [
+      "psu",
+      "upsc",
+      "high-yield"
+     ]
+    },
+    {
+     "id": "2026-09-29-11",
+     "title": "GATE 2027 registration deadline extended",
+     "body": "IIT Madras (the organising institute) extended registration without late fee until 5 October 2026; GATE is organised jointly by the IITs and IISc.",
+     "tags": [
+      "upsc"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Update to a morning story",
+   "stories": [
+    {
+     "id": "2026-09-29-12",
+     "title": "UPI-MDR: more framework details surface",
+     "body": "a bench led by Chief Justice of India Surya Kant (with Justices Joymalya Bagchi and V. Mohana) declined the stay and sought responses from the Centre, RBI and NPCI; the Finance Ministry says ~96% of merchant transactions will remain unaffected, P2P payments stay free, the 0.4% MDR is capped at ₹300 for transactions of ₹75,000 and above, and essential thin-margin sectors (railways, telecom, insurance, fuel, agricultural inputs) get a flat ₹5 MDR on qualifying transactions above ₹2,000 — from 15 October 2026.",
+     "tags": [
+      "bank",
+      "upsc",
+      "high-yield"
+     ]
+    }
+   ]
   }
  ],
  "one_liners": [
@@ -177,7 +303,14 @@
   "ICAR × NDDB strategic pact: genomic selection in indigenous cattle breeds for genetic advancement + milk productivity.",
   "Sable 4th in 3000m steeplechase (8:21.67, season best); Japan's Ryuji Miura broke Sable's Asian Games record.",
   "Kapil Pokhariya assured boxing medal — 5-0 over Korea's Gichae Kim, men's 90kg QF.",
-  "Day 11 today: men's cricket semi-final — India vs Sri Lanka–Nepal QF winner; tally after Day 10 — 39 = 4G/17S/18B, India 12th."
+  "Day 11 today: men's cricket semi-final — India vs Sri Lanka–Nepal QF winner; tally after Day 10 — 39 = 4G/17S/18B, India 12th.",
+  "KAZIND-2026: 9th edition India–Kazakhstan joint military exercise; 60-member Indian contingent to Oskemen; joint counter-terrorism in a sub-conventional environment under a UN mandate.",
+  "Theatre commands (single source, uncorroborated): CDS Anil Chauhan chaired the inaugural joint services commanders' conference on 'Theatre Commands Operationalisation 2026-27' (28–29 Sept, IDS HQ New Delhi); rollout of Northern (Lucknow), Western (Jaipur), Maritime (Thiruvananthapuram) commands Jan–Dec 2027.",
+  "IRDAI: Dinesh Pant (ex-LIC MD) = Whole-Time Member (Actuary); Girija Subramanian (ex-New India Assurance CMD) = WTM (Distribution); IRDAI estd 1999, HQ Hyderabad, chair Ajay Seth.",
+  "Coforge: Akhil Gupta (ex-Bharti Enterprises Vice Chairman) = Non-Executive Chairperson from 29 Sept 2026, 5-year term.",
+  "Barbil–Bolanikhadan: ₹122 cr, 6 km rail doubling (South Eastern Railway), iron-ore corridor; +8.9 MTPA capacity (from ~9 MTPA).",
+  "GATE 2027: IIT Madras extends registration without late fee to 5 Oct 2026.",
+  "Asian Games Day 11: Neeru Dhanda — women's trap individual gold (India's 5th gold) + trap team silver; women's 4x400m relay gold; tally 47 = 5G/21S/21B, India 11th (11:40 AM IST); men's cricket semifinal vs Sri Lanka on 1 Oct — not today (all four QFs washed out)."
  ],
  "quiz": [
   {

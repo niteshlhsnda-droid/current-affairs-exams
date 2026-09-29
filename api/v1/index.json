@@ -4,10 +4,10 @@
   {
    "slug": "2026-09-29",
    "date": "29 September 2026",
-   "story_count": 14,
-   "one_liner_count": 15,
+   "story_count": 26,
+   "one_liner_count": 22,
    "quiz_count": 10,
-   "high_yield_count": 7,
+   "high_yield_count": 13,
    "categories": [
     "Economy & Banking",
     "Infrastructure & Industry",
@@ -15,7 +15,11 @@
     "Foreign Policy & Diplomacy",
     "Defence & Science",
     "Agriculture",
-    "Sports"
+    "Sports",
+    "Sports",
+    "Defence & Security",
+    "Appointments & Infrastructure",
+    "Update to a morning story"
    ],
    "top_stories": [
     "India's first blue bond pulled on launch day",
