@@ -1,6 +1,32 @@
 {
- "count": 95,
+ "count": 96,
  "days": [
+  {
+   "slug": "2026-09-30",
+   "date": "30 September 2026",
+   "story_count": 26,
+   "one_liner_count": 27,
+   "quiz_count": 10,
+   "high_yield_count": 10,
+   "categories": [
+    "Banking & Markets",
+    "Governance & Policy",
+    "Foreign Policy & Trade",
+    "Industry & Science",
+    "Sports",
+    "Environment & Biodiversity",
+    "Infrastructure & Defence",
+    "Summits & Technology Rules",
+    "Asian Games 2026 — Day 12 today"
+   ],
+   "top_stories": [
+    "SEBI board approves PMS overhaul and settlement-rules revamp",
+    "Net FDI hits five-year high of $7.35 billion in July 2026",
+    "IndusInd Bank launches 'GCC Banking Vertical'",
+    "Livestock Insurance Portal (Pashudhan Bima Portal) launched",
+    "Steel Industry Safety Council (SISC) announced"
+   ]
+  },
   {
    "slug": "2026-09-29",
    "date": "29 September 2026",

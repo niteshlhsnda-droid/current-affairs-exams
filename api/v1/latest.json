@@ -1,32 +1,30 @@
 {
- "latest": "2026-09-29",
- "updated": "2026-09-29",
+ "latest": "2026-09-30",
+ "updated": "2026-09-30",
  "summary": {
-  "slug": "2026-09-29",
-  "date": "29 September 2026",
+  "slug": "2026-09-30",
+  "date": "30 September 2026",
   "story_count": 26,
-  "one_liner_count": 22,
+  "one_liner_count": 27,
   "quiz_count": 10,
-  "high_yield_count": 13,
+  "high_yield_count": 10,
   "categories": [
-   "Economy & Banking",
-   "Infrastructure & Industry",
-   "Governance & Education",
-   "Foreign Policy & Diplomacy",
-   "Defence & Science",
-   "Agriculture",
+   "Banking & Markets",
+   "Governance & Policy",
+   "Foreign Policy & Trade",
+   "Industry & Science",
    "Sports",
-   "Sports",
-   "Defence & Security",
-   "Appointments & Infrastructure",
-   "Update to a morning story"
+   "Environment & Biodiversity",
+   "Infrastructure & Defence",
+   "Summits & Technology Rules",
+   "Asian Games 2026 — Day 12 today"
   ],
   "top_stories": [
-   "India's first blue bond pulled on launch day",
-   "Supreme Court refuses to stay 0.4% MDR on UPI above ₹2,000",
-   "UFBU strike deferred: no 28–30 Sept bank strike",
-   "Fitch raises India's FY27 growth forecast to 6.9%",
-   "NHSRCL launches first 100-metre steel bridge for the bullet train"
+   "SEBI board approves PMS overhaul and settlement-rules revamp",
+   "Net FDI hits five-year high of $7.35 billion in July 2026",
+   "IndusInd Bank launches 'GCC Banking Vertical'",
+   "Livestock Insurance Portal (Pashudhan Bima Portal) launched",
+   "Steel Industry Safety Council (SISC) announced"
   ]
  }
 }
