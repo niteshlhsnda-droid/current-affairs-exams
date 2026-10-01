@@ -4,10 +4,10 @@
  "summary": {
   "slug": "2026-10-01",
   "date": "1 October 2026",
-  "story_count": 26,
-  "one_liner_count": 17,
+  "story_count": 35,
+  "one_liner_count": 23,
   "quiz_count": 10,
-  "high_yield_count": 12,
+  "high_yield_count": 16,
   "categories": [
    "Banking & Markets",
    "Governance & Policy",
@@ -15,6 +15,12 @@
    "Foreign Policy & World",
    "Environment & Monsoon",
    "Science, Education & Rankings",
+   "Sports",
+   "National Security",
+   "Banking & Markets",
+   "Environment & Agriculture",
+   "Governance",
+   "Defence",
    "Sports"
   ],
   "top_stories": [
