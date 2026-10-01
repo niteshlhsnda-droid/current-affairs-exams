@@ -1,30 +1,28 @@
 {
- "latest": "2026-09-30",
- "updated": "2026-09-30",
+ "latest": "2026-10-01",
+ "updated": "2026-10-01",
  "summary": {
-  "slug": "2026-09-30",
-  "date": "30 September 2026",
+  "slug": "2026-10-01",
+  "date": "1 October 2026",
   "story_count": 26,
-  "one_liner_count": 32,
+  "one_liner_count": 17,
   "quiz_count": 10,
-  "high_yield_count": 10,
+  "high_yield_count": 12,
   "categories": [
    "Banking & Markets",
    "Governance & Policy",
-   "Foreign Policy & Trade",
-   "Industry & Science",
-   "Sports",
-   "Environment & Biodiversity",
-   "Infrastructure & Defence",
-   "Summits & Technology Rules",
-   "Asian Games 2026 — Day 12 today"
+   "Defence & Security",
+   "Foreign Policy & World",
+   "Environment & Monsoon",
+   "Science, Education & Rankings",
+   "Sports"
   ],
   "top_stories": [
-   "SEBI board approves PMS overhaul and settlement-rules revamp",
-   "Net FDI hits five-year high of $7.35 billion in July 2026",
-   "IndusInd Bank launches 'GCC Banking Vertical'",
-   "Livestock Insurance Portal (Pashudhan Bima Portal) launched",
-   "Steel Industry Safety Council (SISC) announced"
+   "Windfall tax cut on diesel and ATF exports from 1 Oct",
+   "RoDTEP and RoSCTL export schemes extended till 31 Dec 2026",
+   "India's external debt $778.2 billion in June quarter (RBI)",
+   "Apple Pay launches in India with Axis Bank",
+   "CCEA hikes MSP for all mandated Rabi crops (Marketing Season 2027-28)"
   ]
  }
 }

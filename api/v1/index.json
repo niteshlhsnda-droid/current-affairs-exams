@@ -1,6 +1,30 @@
 {
- "count": 96,
+ "count": 97,
  "days": [
+  {
+   "slug": "2026-10-01",
+   "date": "1 October 2026",
+   "story_count": 26,
+   "one_liner_count": 17,
+   "quiz_count": 10,
+   "high_yield_count": 12,
+   "categories": [
+    "Banking & Markets",
+    "Governance & Policy",
+    "Defence & Security",
+    "Foreign Policy & World",
+    "Environment & Monsoon",
+    "Science, Education & Rankings",
+    "Sports"
+   ],
+   "top_stories": [
+    "Windfall tax cut on diesel and ATF exports from 1 Oct",
+    "RoDTEP and RoSCTL export schemes extended till 31 Dec 2026",
+    "India's external debt $778.2 billion in June quarter (RBI)",
+    "Apple Pay launches in India with Axis Bank",
+    "CCEA hikes MSP for all mandated Rabi crops (Marketing Season 2027-28)"
+   ]
+  },
   {
    "slug": "2026-09-30",
    "date": "30 September 2026",
