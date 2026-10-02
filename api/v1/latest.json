@@ -1,34 +1,26 @@
 {
- "latest": "2026-10-01",
- "updated": "2026-10-01",
+ "latest": "2026-10-02",
+ "updated": "2026-10-02",
  "summary": {
-  "slug": "2026-10-01",
-  "date": "1 October 2026",
-  "story_count": 35,
-  "one_liner_count": 23,
+  "slug": "2026-10-02",
+  "date": "2 October 2026",
+  "story_count": 20,
+  "one_liner_count": 13,
   "quiz_count": 10,
-  "high_yield_count": 16,
+  "high_yield_count": 8,
   "categories": [
-   "Banking & Markets",
+   "Gandhi Jayanti special",
    "Governance & Policy",
-   "Defence & Security",
-   "Foreign Policy & World",
-   "Environment & Monsoon",
-   "Science, Education & Rankings",
-   "Sports",
-   "National Security",
    "Banking & Markets",
-   "Environment & Agriculture",
-   "Governance",
-   "Defence",
+   "Foreign Policy & World",
    "Sports"
   ],
   "top_stories": [
-   "Windfall tax cut on diesel and ATF exports from 1 Oct",
-   "RoDTEP and RoSCTL export schemes extended till 31 Dec 2026",
-   "India's external debt $778.2 billion in June quarter (RBI)",
-   "Apple Pay launches in India with Axis Bank",
-   "CCEA hikes MSP for all mandated Rabi crops (Marketing Season 2027-28)"
+   "157th birth anniversary of Mahatma Gandhi",
+   "Swachhata Hi Seva 2026 concludes; Swachh Bharat Diwas",
+   "National Wildlife Week begins",
+   "ECI extends SIR dates for Andhra Pradesh and Meghalaya",
+   "Oct 2 protest programmes announced"
   ]
  }
 }
