@@ -1,6 +1,28 @@
 {
- "count": 98,
+ "count": 99,
  "days": [
+  {
+   "slug": "2026-10-03",
+   "date": "3 October 2026",
+   "story_count": 18,
+   "one_liner_count": 9,
+   "quiz_count": 10,
+   "high_yield_count": 8,
+   "categories": [
+    "Asian Games — Day 15 (3 Oct)",
+    "Governance & Policy",
+    "Banking & Markets",
+    "Science, Tech & Environment",
+    "International & World"
+   ],
+   "top_stories": [
+    "Asiad enters its penultimate day",
+    "Parinaaz Dhaliwal's skeet double bronze",
+    "Shooting campaign closes with 15 medals",
+    "Gujarat's UCC gets Presidential assent",
+    "UPSC completes 100 years: 'Manthan'"
+   ]
+  },
   {
    "slug": "2026-10-02",
    "date": "2 October 2026",
