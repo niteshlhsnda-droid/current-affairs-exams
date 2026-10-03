@@ -609,34 +609,54 @@ def main():
     sept_days = months[0]["dailies"]
 
     # repair: the archive parser only recovers entries from the previous archive.html,
-    # so dailies added on 2026-09-24+ were never listed in the current-month block.
-    # Re-merge every September-2026 daily found in updates/*.md (idempotent).
+    # so new dailies were never added to the current-month blocks. Re-merge every
+    # daily found in updates/*.md into its month block (idempotent), dropping any
+    # dailies that leaked into the wrong month.
     try:
         sys.path.insert(0, os.path.join(ROOT, "tools"))
         import build_api
-        sept_have = {s for s, _, _ in months[0]["dailies"]}
-        missing = []
-        for slug in sorted(f[:-3] for f in os.listdir(os.path.join(ROOT, "updates"))
-                           if f.endswith(".md")):
-            if slug.startswith("2026-09") and slug not in sept_have:
-                with open(os.path.join(ROOT, "updates", slug + ".md"),
-                          encoding="utf-8") as fh:
-                    day = build_api.parse_digest(slug, fh.read())
-                n_stories = sum(len(c["stories"]) for c in day["categories"])
-                n_ol, n_q = len(day["one_liners"]), len(day["quiz"])
-                note = f"{n_stories} stor{'ies' if n_stories != 1 else 'y'}"
-                if n_ol:
-                    note += ", rapid-fire one-liners"
-                if n_q:
-                    note += ", quiz"
-                missing.append((slug, build_api.date_label(slug), note))
-        if missing:
-            dailies = list(months[0]["dailies"]) + missing
-            dailies.sort(key=lambda t: t[0], reverse=True)  # newest first
-            months[0]["dailies"] = dailies
-            sept_days = dailies
-            print(f"  archive repair: added {len(missing)} missing Sept dailies: "
-                  + ", ".join(s for s, _, _ in missing))
+
+        def day_note(slug):
+            with open(os.path.join(ROOT, "updates", slug + ".md"),
+                      encoding="utf-8") as fh:
+                day = build_api.parse_digest(slug, fh.read())
+            n_stories = sum(len(c["stories"]) for c in day["categories"])
+            n_ol, n_q = len(day["one_liners"]), len(day["quiz"])
+            note = f"{n_stories} stor{'ies' if n_stories != 1 else 'y'}"
+            if n_ol:
+                note += ", rapid-fire one-liners"
+            if n_q:
+                note += ", quiz"
+            return (slug, build_api.date_label(slug), note)
+
+        def repair_month(slug, note):
+            block = next((m for m in months if m["slug"] == slug), None)
+            if block is None:
+                block = {"slug": slug, "label": month_label(slug), "note": note,
+                         "dailies": [], "current": True}
+                months.insert(0, block)
+            prefix = slug + "-"
+            clean = [t for t in block["dailies"] if t[0].startswith(prefix)]
+            have = {s for s, _, _ in clean}
+            missing = [day_note(s) for s in sorted(
+                f[:-3] for f in os.listdir(os.path.join(ROOT, "updates"))
+                if f.endswith(".md") and f.startswith(prefix)) if s not in have]
+            dailies = sorted(clean + missing, key=lambda t: t[0], reverse=True)
+            if dailies != block["dailies"]:
+                block["dailies"] = dailies
+                print(f"  archive repair: {slug} now lists: "
+                      + ", ".join(s for s, _, _ in dailies))
+            return block
+
+        sept_block = repair_month(
+            "2026-09", "Full September monthly digest publishes at month-end.")
+        oct_block = repair_month(
+            "2026-10", "Full October monthly digest publishes at month-end.")
+        # "Recent digests" on the homepage = newest month that has dailies
+        for b in (oct_block, sept_block):
+            if b["dailies"]:
+                sept_days = b["dailies"]
+                break
     except Exception as e:
         print(f"  WARNING: archive repair failed: {e}")
 
