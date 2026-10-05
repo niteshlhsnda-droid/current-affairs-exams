@@ -1,26 +1,25 @@
 {
- "latest": "2026-10-04",
- "updated": "2026-10-04",
+ "latest": "2026-10-05",
+ "updated": "2026-10-05",
  "summary": {
-  "slug": "2026-10-04",
-  "date": "4 October 2026",
-  "story_count": 22,
-  "one_liner_count": 11,
+  "slug": "2026-10-05",
+  "date": "5 October 2026",
+  "story_count": 8,
+  "one_liner_count": 9,
   "quiz_count": 10,
-  "high_yield_count": 11,
+  "high_yield_count": 5,
   "categories": [
-   "Asian Games 2026 — Final day (4 Oct)",
-   "Banking & Markets",
+   "Diplomacy & Trade",
+   "Banking & Economy",
    "Governance & Policy",
-   "International & World",
-   "Science, Tech & Environment"
+   "International & World"
   ],
   "top_stories": [
-   "India finish 4th with 85 medals (21 gold, 27 silver, 37 bronze)",
-   "Closing ceremony today: Neeru Dhanda carries the flag",
-   "Golden final weekend — hockey double & boxing trio",
-   "More final-weekend medals",
-   "Games controversies in focus"
+   "Swiss President's state visit begins today (5–7 Oct)",
+   "India–Canada CEPA: 5th round opens in Ottawa today",
+   "RBI MPC meets from today; hike buzz ahead of the 7 Oct decision",
+   "GST Council set to debate a big enforcement reset on 7 Oct",
+   "Five Centres of Excellence for classical languages approved"
   ]
  }
 }

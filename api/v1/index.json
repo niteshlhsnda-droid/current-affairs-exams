@@ -1,6 +1,27 @@
 {
- "count": 100,
+ "count": 101,
  "days": [
+  {
+   "slug": "2026-10-05",
+   "date": "5 October 2026",
+   "story_count": 8,
+   "one_liner_count": 9,
+   "quiz_count": 10,
+   "high_yield_count": 5,
+   "categories": [
+    "Diplomacy & Trade",
+    "Banking & Economy",
+    "Governance & Policy",
+    "International & World"
+   ],
+   "top_stories": [
+    "Swiss President's state visit begins today (5–7 Oct)",
+    "India–Canada CEPA: 5th round opens in Ottawa today",
+    "RBI MPC meets from today; hike buzz ahead of the 7 Oct decision",
+    "GST Council set to debate a big enforcement reset on 7 Oct",
+    "Five Centres of Excellence for classical languages approved"
+   ]
+  },
   {
    "slug": "2026-10-04",
    "date": "4 October 2026",
