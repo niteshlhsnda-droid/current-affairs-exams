@@ -4,15 +4,21 @@
   {
    "slug": "2026-10-05",
    "date": "5 October 2026",
-   "story_count": 8,
-   "one_liner_count": 9,
+   "story_count": 24,
+   "one_liner_count": 15,
    "quiz_count": 10,
-   "high_yield_count": 5,
+   "high_yield_count": 10,
    "categories": [
     "Diplomacy & Trade",
     "Banking & Economy",
     "Governance & Policy",
-    "International & World"
+    "International & World",
+    "Sports",
+    "Banking & Economy",
+    "Policy & Economy",
+    "Defence & Tech",
+    "Science, Education & Environment",
+    "Governance & Digital"
    ],
    "top_stories": [
     "Swiss President's state visit begins today (5–7 Oct)",
