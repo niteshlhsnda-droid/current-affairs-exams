@@ -28,6 +28,65 @@ def date_label(slug):
     y, m, d = slug.split("-")
     return f"{int(d)} {MONTH_NAMES[int(m)-1]} {y}"
 
+# ------------------------------------------------------- web-visibility
+SITE_ABS = "https://niteshlhsnda-droid.github.io/current-affairs-exams"
+
+POSTHOG_HEAD = """<script>
+(function(){
+  var POSTHOG_KEY="__POSTHOG_KEY__";
+  var POSTHOG_HOST="__POSTHOG_HOST__";
+  if(!POSTHOG_HOST||POSTHOG_HOST.indexOf("__POSTHOG_HOST__")===0){POSTHOG_HOST="https://us.i.posthog.com";}
+  function loadPH(){
+    if(window.posthog||!POSTHOG_KEY||POSTHOG_KEY.indexOf("__POSTHOG_KEY__")===0)return;
+    var s=document.createElement("script");s.async=true;
+    s.src=POSTHOG_HOST.replace(/\\/$/,"")+"/static/array.js";
+    s.onload=function(){try{posthog.init(POSTHOG_KEY,{api_host:POSTHOG_HOST,capture_pageview:true,autocapture:true});}catch(e){}};
+    document.head.appendChild(s);
+  }
+  try{if(localStorage.getItem("cc-consent")==="accepted"){loadPH();}}catch(e){}
+  window.__loadPostHog=loadPH;
+})();
+</script>"""
+
+def og_meta(title, desc, og_path="index.html"):
+    """OG/Twitter meta block with absolute per-page URL. Emitted by every shell."""
+    url = SITE_ABS + "/" + og_path
+    img = SITE_ABS + "/og-image.png"
+    t = ihtml.escape(title, quote=True)
+    d = ihtml.escape(desc, quote=True)
+    return (f'<meta property="og:type" content="website">\n'
+            f'<meta property="og:site_name" content="Current Affairs for Exams">\n'
+            f'<meta property="og:title" content="{t}">\n'
+            f'<meta property="og:description" content="{d}">\n'
+            f'<meta property="og:url" content="{url}">\n'
+            f'<meta property="og:image" content="{img}">\n'
+            f'<meta name="twitter:card" content="summary_large_image">\n'
+            f'<meta name="twitter:title" content="{t}">\n'
+            f'<meta name="twitter:description" content="{d}">\n'
+            f'<meta name="twitter:image" content="{img}">\n'
+            f'<meta name="theme-color" content="#0d1424">')
+
+CC_BANNER = """<div id="cc-banner" hidden>
+<span>We use optional analytics cookies (PostHog) to understand visits and improve the site. No ads, no cross-site tracking.</span>
+<span class="cc-actions"><button id="cc-accept" type="button">Accept</button><button id="cc-decline" type="button">Decline</button></span>
+</div>
+<script>
+(function(){
+  var key="cc-consent";
+  function show(){var b=document.getElementById("cc-banner");if(b)b.hidden=false;}
+  function choose(v){
+    try{localStorage.setItem(key,v);}catch(e){}
+    var b=document.getElementById("cc-banner");if(b)b.hidden=true;
+    if(v==="accepted"&&typeof window.__loadPostHog==="function"){window.__loadPostHog();}
+  }
+  try{if(localStorage.getItem(key))return;}catch(e){return;}
+  if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",show);}
+  else{show();}
+  document.getElementById("cc-accept").addEventListener("click",function(){choose("accepted");});
+  document.getElementById("cc-decline").addEventListener("click",function(){choose("declined");});
+})();
+</script>"""
+
 # ---------------------------------------------------------------- style.css
 STYLE_CSS = """:root{
   --bg:#0d1424; --bg2:#111a30; --card:#182238; --line:#2a3a5f;
@@ -190,6 +249,17 @@ footer.site a{color:var(--link)}
   nav.main{margin-left:0}
   .content h1{font-size:1.4rem}
 }
+
+/* ---- cookie-consent banner (non-blocking, small, bottom) ---- */
+#cc-banner{position:fixed;left:1rem;bottom:1rem;z-index:200;max-width:24rem;
+  background:#182238;border:1px solid #2a3a5f;border-radius:12px;
+  color:#e9eef8;font-size:.82rem;line-height:1.5;padding:.9rem 1.05rem;
+  box-shadow:0 8px 28px rgba(0,0,0,.5);display:flex;flex-direction:column;gap:.7rem}
+#cc-banner[hidden]{display:none}
+#cc-banner .cc-actions{display:flex;gap:.6rem}
+#cc-banner button{font:inherit;font-weight:700;border-radius:9px;padding:.5rem 1.1rem;
+  cursor:pointer;border:1px solid #2a3a5f;background:transparent;color:#e9eef8}
+#cc-banner button#cc-accept{background:#f5a524;border-color:#f5a524;color:#1a1206}
 """
 
 # ------------------------------------------------------- shared chrome
@@ -209,7 +279,7 @@ Compiled from public coverage on GKToday, Insights IAS, Drishti IAS, Testbook, A
 <a href="{prefix}index.html">Home</a> · <a href="{prefix}archive.html">Archive</a> · <a href="https://github.com/niteshlhsnda-droid/current-affairs-exams">GitHub</a>
 </div></footer>"""
 
-def page_shell(title, prefix, active, crumbs, main_html, description=""):
+def page_shell(title, prefix, active, crumbs, main_html, description="", og_path="index.html"):
     desc = description or "Exam-ready daily current affairs for Bank, UPSC and PSU aspirants — rapid-fire one-liners, top stories and quizzes."
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -219,7 +289,9 @@ def page_shell(title, prefix, active, crumbs, main_html, description=""):
 <script src="/current-affairs-exams/auth.js"></script>
 <title>{title}</title>
 <meta name="description" content="{ihtml.escape(desc, quote=True)}">
+{og_meta(title, desc, og_path)}
 <link rel="stylesheet" href="{prefix}style.css">
+{POSTHOG_HEAD}
 </head>
 <body>
 {site_header(prefix, active)}
@@ -228,6 +300,7 @@ def page_shell(title, prefix, active, crumbs, main_html, description=""):
 {main_html}
 </main>
 {site_footer(prefix)}
+{CC_BANNER}
 </body>
 </html>
 """
@@ -365,7 +438,7 @@ def build_dailies(dates):
                 f'<div class="pn">{"".join(pn)}</div>\n'
                 f'<p class="backline"><a href="../archive.html">📁 All dates in the archive</a></p>')
         c = crumbs("../", ("Home", "../index.html"), ("Archive", "../archive.html"), (date_label(d), None))
-        html = page_shell(title, "../", "", c, main)
+        html = page_shell(title, "../", "", c, main, og_path=f"updates/{d}.html")
         open(path, "w", encoding="utf-8").write(html)
     print(f"rewrapped {len(dates)} daily pages")
 
@@ -378,7 +451,7 @@ def build_monthlies():
         main = (f'<div class="content">\n{body}\n</div>\n'
                 f'<p class="backline"><a href="../archive.html">📁 All dates in the archive</a></p>')
         c = crumbs("../", ("Home", "../index.html"), ("Archive", "../archive.html"), (month_label(s), None))
-        html = page_shell(title, "../", "monthly" if s == LATEST_MONTHLY else "", c, main)
+        html = page_shell(title, "../", "monthly" if s == LATEST_MONTHLY else "", c, main, og_path=f"monthly/{s}.html")
         open(path, "w", encoding="utf-8").write(html)
     print(f"rewrapped {len(slugs)} monthly pages")
 
@@ -387,7 +460,7 @@ def build_compare():
     title, body = extract_body(path, "")
     main = f'<div class="content">\n{body}\n</div>'
     c = crumbs("", ("Home", "index.html"), ("Site comparison", None))
-    html = page_shell(title, "", "compare", c, main)
+    html = page_shell(title, "", "compare", c, main, og_path="compare.html")
     open(path, "w", encoding="utf-8").write(html)
     print("rewrapped compare.html")
 
@@ -462,7 +535,7 @@ q.addEventListener('input',()=>{
 </script>""")
     c = crumbs("", ("Home", "index.html"), ("Archive", None))
     html = page_shell("Archive — Current Affairs for Exams", "", "archive", c,
-                      "\n".join(body_parts))
+                      "\n".join(body_parts), og_path="archive.html")
     open(os.path.join(ROOT, "archive.html"), "w", encoding="utf-8").write(html)
     print(f"rebuilt archive.html ({len(months)} month blocks)")
 
@@ -491,6 +564,14 @@ def build_index(months, top5, compare_section, sept_days):
 <a class="linkcard" href="monthly/{LATEST_MONTHLY}.html"><span class="ic">📅</span><span><b>{month_label(LATEST_MONTHLY)} digest</b><span>Full monthly compilation</span></span></a>
 <a class="linkcard" href="archive.html"><span class="ic">🗂️</span><span><b>Full archive</b><span>87 day-wise pages · 12 monthly digests</span></span></a>
 <a class="linkcard" href="compare.html"><span class="ic">⚔️</span><span><b>Site comparison</b><span>Which CA site for which exam</span></span></a>
+</div>"""
+
+    onboard = f"""<h2 class="section">👋 New here? Start here</h2>
+<div class="grid">
+<a class="linkcard" href="updates/{LATEST_DAILY}.html"><span class="ic">1️⃣</span><span><b>Read today's digest</b><span>Top stories + 60-second rapid-fire one-liners, updated daily</span></span></a>
+<a class="linkcard" href="updates/{LATEST_DAILY}.html#quiz"><span class="ic">2️⃣</span><span><b>Try the 5-question quiz</b><span>Test yourself on today's news in a couple of minutes</span></span></a>
+<a class="linkcard" href="archive.html"><span class="ic">3️⃣</span><span><b>Browse the archive by date</b><span>Every digest since September — newest first</span></span></a>
+<a class="linkcard" href="app/index.html"><span class="ic">4️⃣</span><span><b>Get the Android app (beta)</b><span>65 quiz MCQs, dark mode, 7:41 AM daily reminder</span></span></a>
 </div>"""
 
     legend = """<h2 class="section">🏷️ Exam-tag legend</h2>
@@ -541,24 +622,78 @@ def build_index(months, top5, compare_section, sept_days):
 <script src="/current-affairs-exams/auth.js"></script>
 <title>Current Affairs for Exams — Bank • UPSC • PSU</title>
 <meta name="description" content="Exam-ready daily current affairs for Bank, UPSC and PSU aspirants — top stories, rapid-fire one-liners and quizzes.">
+{og_meta("Current Affairs for Exams — Bank • UPSC • PSU",
+         "Exam-ready daily current affairs for Bank, UPSC and PSU aspirants — top stories, rapid-fire one-liners and quizzes.",
+         "index.html")}
 <link rel="stylesheet" href="style.css">
+{POSTHOG_HEAD}
 </head>
 <body>
 {site_header("", "home")}
 {hero}
 <main class="wrap">
 {quick}
+{onboard}
 {legend}
 {month_grid}
 {recent_html}
 {compare_section}
 </main>
 {site_footer("")}
+{CC_BANNER}
 </body>
 </html>
 """
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(shell_top)
     print("rebuilt index.html")
+
+def build_seo(dates):
+    """sitemap.xml + robots.txt: absolute per-page URLs."""
+    pages = ["index.html", "archive.html", "compare.html", "app/index.html"]
+    md = os.path.join(ROOT, "monthly")
+    pages += [f"monthly/{s}.html" for s in sorted(
+        f[:-5] for f in os.listdir(md) if f.endswith(".html"))]
+    # latest 90 daily slugs by slug sort
+    pages += [f"updates/{d}.html" for d in sorted(dates, reverse=True)[:90]]
+    urls = "\n".join(f'  <url><loc>{SITE_ABS}/{p}</loc></url>' for p in pages)
+    open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + urls + '\n</urlset>\n')
+    open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8").write(
+        "User-agent: *\nAllow: /\nSitemap: " + SITE_ABS + "/sitemap.xml\n")
+    print(f"wrote sitemap.xml ({len(pages)} URLs) + robots.txt")
+
+def build_app():
+    """app/index.html (via page_shell) + beta APK copied into app/."""
+    import shutil
+    appd = os.path.join(ROOT, "app")
+    os.makedirs(appd, exist_ok=True)
+    src_apk = os.path.expanduser("~/workspace/your_files/current-affairs-app-debug.apk")
+    dst_apk = os.path.join(appd, "current-affairs-app-beta.apk")
+    shutil.copyfile(src_apk, dst_apk)
+    size_mb = round(os.path.getsize(dst_apk) / 1_000_000)
+    body = f"""<div class="content">
+<h1>📱 Current Affairs app — beta</h1>
+<p class="lede">The Current Affairs for Exams companion app for Android — the same daily digests you see on this site, packaged for offline-friendly revision on the go.</p>
+<h2>What's inside</h2>
+<ul>
+<li><b>65 quiz MCQs</b> with explanations</li>
+<li><b>Dark mode</b></li>
+<li><b>Exam-target filter</b> — Bank, UPSC, PSU</li>
+<li><b>7:41 AM daily reminder</b> — never miss a digest</li>
+</ul>
+<h2>Download</h2>
+<p><a class="btn primary" href="current-affairs-app-beta.apk">⬇ Download beta APK ({size_mb} MB, debug-signed — install manually, Android 8+)</a></p>
+<p class="lede">This is a <b>debug-signed beta build</b>, not a Play Store install: download the APK, open it on your Android 8+ phone and allow "install unknown apps" when prompted.</p>
+<p class="lede"><b>Note:</b> the Play Store release is pending — once it's live, this page will point to the store listing instead.</p>
+</div>"""
+    c = crumbs("", ("Home", "index.html"), ("App (beta)", None))
+    html = page_shell("📱 Current Affairs app — beta", "", "", c, body,
+                      description="Current Affairs for Exams — Android app (beta): 65 quiz MCQs with explanations, dark mode, exam-target filter, 7:41 AM daily reminder.",
+                      og_path="app/index.html")
+    open(os.path.join(appd, "index.html"), "w", encoding="utf-8").write(html)
+    print("wrote app/index.html + app/current-affairs-app-beta.apk")
 
 def main():
     print("parsing archive...")
@@ -666,6 +801,8 @@ def main():
     build_compare()
     build_archive(months)
     build_index(months, top5, compare_section, sept_days)
+    build_seo(dates)
+    build_app()
 
     # JSON feed for the Flutter app — regenerated with every site rebuild
     # so the app always sees the newest digests.

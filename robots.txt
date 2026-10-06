@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://niteshlhsnda-droid.github.io/current-affairs-exams/sitemap.xml
