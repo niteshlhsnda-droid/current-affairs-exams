@@ -4,10 +4,10 @@
   {
    "slug": "2026-10-06",
    "date": "6 October 2026",
-   "story_count": 14,
-   "one_liner_count": 14,
+   "story_count": 22,
+   "one_liner_count": 20,
    "quiz_count": 10,
-   "high_yield_count": 6,
+   "high_yield_count": 8,
    "categories": [
     "Nobel Prizes",
     "Diplomacy & Trade",
@@ -16,7 +16,15 @@
     "Defence & Security",
     "Banking & Economy",
     "Sports",
-    "Science & Education"
+    "Science & Education",
+    "Science & Technology",
+    "Governance & Polity",
+    "Defence & Security",
+    "International",
+    "Economy & Statistics",
+    "Sports",
+    "Obituary",
+    "Insurance"
    ],
    "top_stories": [
     "Nobel Prize in Medicine 2026: trio honoured for optogenetics",
