@@ -4,10 +4,10 @@
   {
    "slug": "2026-10-07",
    "date": "7 October 2026",
-   "story_count": 8,
-   "one_liner_count": 9,
+   "story_count": 13,
+   "one_liner_count": 13,
    "quiz_count": 10,
-   "high_yield_count": 7,
+   "high_yield_count": 9,
    "categories": [
     "Nobel Prizes",
     "Science & Technology",
@@ -16,7 +16,12 @@
     "Economy & Trade",
     "Science & Technology",
     "Governance & Polity",
-    "International"
+    "International",
+    "Science & Technology",
+    "Governance & Polity",
+    "Defence & Security",
+    "Sports",
+    "Economy & Trade"
    ],
    "top_stories": [
     "Nobel Prize in Chemistry 2026 announced TODAY at 3:15 PM IST",
