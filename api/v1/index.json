@@ -1,6 +1,31 @@
 {
- "count": 104,
+ "count": 105,
  "days": [
+  {
+   "slug": "2026-10-09",
+   "date": "9 October 2026",
+   "story_count": 14,
+   "one_liner_count": 20,
+   "quiz_count": 15,
+   "high_yield_count": 10,
+   "categories": [
+    "Nobel Prizes",
+    "Economy & Trade",
+    "Governance & Polity",
+    "Defence & Security",
+    "Economy & Trade",
+    "Science & Technology",
+    "Environment",
+    "Sports"
+   ],
+   "top_stories": [
+    "Nobel Peace Prize 2026 announced TODAY (9 Oct, ~2:30 PM IST)",
+    "World Bank raises India's FY27 GDP forecast to 7.1%",
+    "PM Modi completes 25 years as head of government",
+    "INDIA bloc march against SIR, demand CEC's resignation",
+    "SC to examine recall plea on CEC-law split verdict"
+   ]
+  },
   {
    "slug": "2026-10-08",
    "date": "8 October 2026",

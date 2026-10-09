@@ -1,36 +1,29 @@
 {
- "latest": "2026-10-08",
- "updated": "2026-10-08",
+ "latest": "2026-10-09",
+ "updated": "2026-10-09",
  "summary": {
-  "slug": "2026-10-08",
-  "date": "8 October 2026",
-  "story_count": 17,
-  "one_liner_count": 18,
-  "quiz_count": 13,
-  "high_yield_count": 15,
+  "slug": "2026-10-09",
+  "date": "9 October 2026",
+  "story_count": 14,
+  "one_liner_count": 20,
+  "quiz_count": 15,
+  "high_yield_count": 10,
   "categories": [
    "Nobel Prizes",
    "Economy & Trade",
-   "Defence & Security",
-   "Exams & Education",
-   "International",
-   "Science & Technology",
-   "Science & Technology",
-   "Economy & Trade",
    "Governance & Polity",
-   "National 🇮🇳",
    "Defence & Security",
    "Economy & Trade",
+   "Science & Technology",
    "Environment",
-   "Agriculture & States",
    "Sports"
   ],
   "top_stories": [
-   "Anne Carson wins Nobel Prize in Literature 2026",
-   "RBI raises repo rate to 5.5% — first hike in nearly 4 years",
-   "SAREX-2026: mass SAR demo off Paradip coast TODAY (8 Oct)",
-   "72nd BPSC Prelims postponed AGAIN — will not be held on 25 Oct",
-   "Jaishankar in Ghana; India–Ghana exchange 2 MoUs"
+   "Nobel Peace Prize 2026 announced TODAY (9 Oct, ~2:30 PM IST)",
+   "World Bank raises India's FY27 GDP forecast to 7.1%",
+   "PM Modi completes 25 years as head of government",
+   "INDIA bloc march against SIR, demand CEC's resignation",
+   "SC to examine recall plea on CEC-law split verdict"
   ]
  }
 }
