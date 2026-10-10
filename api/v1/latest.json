@@ -1,34 +1,28 @@
 {
- "latest": "2026-10-09",
- "updated": "2026-10-09",
+ "latest": "2026-10-10",
+ "updated": "2026-10-10",
  "summary": {
-  "slug": "2026-10-09",
-  "date": "9 October 2026",
-  "story_count": 22,
-  "one_liner_count": 26,
-  "quiz_count": 15,
-  "high_yield_count": 12,
+  "slug": "2026-10-10",
+  "date": "10 October 2026",
+  "story_count": 11,
+  "one_liner_count": 15,
+  "quiz_count": 10,
+  "high_yield_count": 3,
   "categories": [
-   "Nobel Prizes",
-   "Economy & Trade",
-   "Governance & Polity",
-   "Defence & Security",
-   "Economy & Trade",
-   "Science & Technology",
-   "Environment",
+   "Elections",
    "Sports",
-   "Awards",
-   "Economy & Trade",
    "Governance & Polity",
+   "Economy & Trade",
+   "Environment",
    "Science & Technology",
-   "Sports"
+   "Diplomacy"
   ],
   "top_stories": [
-   "Nobel Peace Prize 2026 announced TODAY (9 Oct, ~2:30 PM IST)",
-   "World Bank raises India's FY27 GDP forecast to 7.1%",
-   "PM Modi completes 25 years as head of government",
-   "INDIA bloc march against SIR, demand CEC's resignation",
-   "SC to examine recall plea on CEC-law split verdict"
+   "Bihar MLC biennial polls: withdrawal deadline ends 9 Oct",
+   "Rajya Sabha biennial elections: withdrawal last date 9 Oct",
+   "West Indies stun India in 2nd T20 (9 Oct, Ranchi)",
+   "PV Sindhu exits Arctic Open (9 Oct)",
+   "Press Council of India reconstituted for 15th term (8 Oct)"
   ]
  }
 }
