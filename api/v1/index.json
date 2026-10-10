@@ -4,10 +4,10 @@
   {
    "slug": "2026-10-10",
    "date": "10 October 2026",
-   "story_count": 11,
-   "one_liner_count": 15,
+   "story_count": 20,
+   "one_liner_count": 19,
    "quiz_count": 10,
-   "high_yield_count": 3,
+   "high_yield_count": 5,
    "categories": [
     "Elections",
     "Sports",
@@ -15,7 +15,12 @@
     "Economy & Trade",
     "Environment",
     "Science & Technology",
-    "Diplomacy"
+    "Diplomacy",
+    "Awards & Appointments",
+    "Economy",
+    "Defence",
+    "State & Society",
+    "Sports"
    ],
    "top_stories": [
     "Bihar MLC biennial polls: withdrawal deadline ends 9 Oct",
