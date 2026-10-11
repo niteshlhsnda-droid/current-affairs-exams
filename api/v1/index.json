@@ -1,6 +1,29 @@
 {
- "count": 106,
+ "count": 107,
  "days": [
+  {
+   "slug": "2026-10-11",
+   "date": "11 October 2026",
+   "story_count": 17,
+   "one_liner_count": 15,
+   "quiz_count": 10,
+   "high_yield_count": 4,
+   "categories": [
+    "Polity & Governance",
+    "Economy & Trade",
+    "Defence",
+    "Society & Environment",
+    "Sports",
+    "International"
+   ],
+   "top_stories": [
+    "PM Modi in Chennai today — projects worth over ₹13,000 crore (11 Oct)",
+    "Lok Sabha passes the twin One Nation One Election bills (9 Oct)",
+    "President visits the Hidimba Devi Temple, Manali",
+    "NSO's first Q2 FY2026-27 GDP advance estimate: 7.4% (10 Oct)",
+    "Global Innovation Index 2026: India at 39th (WIPO, 10 Oct)"
+   ]
+  },
   {
    "slug": "2026-10-10",
    "date": "10 October 2026",

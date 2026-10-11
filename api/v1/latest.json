@@ -1,33 +1,27 @@
 {
- "latest": "2026-10-10",
- "updated": "2026-10-10",
+ "latest": "2026-10-11",
+ "updated": "2026-10-11",
  "summary": {
-  "slug": "2026-10-10",
-  "date": "10 October 2026",
-  "story_count": 20,
-  "one_liner_count": 19,
+  "slug": "2026-10-11",
+  "date": "11 October 2026",
+  "story_count": 17,
+  "one_liner_count": 15,
   "quiz_count": 10,
-  "high_yield_count": 5,
+  "high_yield_count": 4,
   "categories": [
-   "Elections",
-   "Sports",
-   "Governance & Polity",
+   "Polity & Governance",
    "Economy & Trade",
-   "Environment",
-   "Science & Technology",
-   "Diplomacy",
-   "Awards & Appointments",
-   "Economy",
    "Defence",
-   "State & Society",
-   "Sports"
+   "Society & Environment",
+   "Sports",
+   "International"
   ],
   "top_stories": [
-   "Bihar MLC biennial polls: withdrawal deadline ends 9 Oct",
-   "Rajya Sabha biennial elections: withdrawal last date 9 Oct",
-   "West Indies stun India in 2nd T20 (9 Oct, Ranchi)",
-   "PV Sindhu exits Arctic Open (9 Oct)",
-   "Press Council of India reconstituted for 15th term (8 Oct)"
+   "PM Modi in Chennai today — projects worth over ₹13,000 crore (11 Oct)",
+   "Lok Sabha passes the twin One Nation One Election bills (9 Oct)",
+   "President visits the Hidimba Devi Temple, Manali",
+   "NSO's first Q2 FY2026-27 GDP advance estimate: 7.4% (10 Oct)",
+   "Global Innovation Index 2026: India at 39th (WIPO, 10 Oct)"
   ]
  }
 }

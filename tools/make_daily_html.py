@@ -3,11 +3,11 @@
 new-format shell (matching the 2026-09-23 page structure)."""
 import re, html
 
-SRC = "/home/hatch/workspace/current-affairs-exams/updates/2026-10-10.md"
-DST = "/home/hatch/workspace/current-affairs-exams/updates/2026-10-10.html"
-SLUG = "2026-10-10"
-DATE_LONG = "10 October 2026"
-DATE_SHORT = "10 Oct 2026"
+SRC = "/home/hatch/workspace/current-affairs-exams/updates/2026-10-11.md"
+DST = "/home/hatch/workspace/current-affairs-exams/updates/2026-10-11.html"
+SLUG = "2026-10-11"
+DATE_LONG = "11 October 2026"
+DATE_SHORT = "11 Oct 2026"
 
 def inline(t):
     # markdown links first (before escaping)
